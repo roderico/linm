@@ -1,0 +1,1800 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: la9527@yahoo.co.kr\n"
+"POT-Creation-Date: 2008-01-01 02:05+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/ncurses/dialog/dialogbox.cpp:12 src/ncurses/dialog/dialogbox.cpp:22
+#: src/ncurses/dialog/dialogbox.cpp:379 src/ncurses/dialog/dialogbox.cpp:658
+#: src/ncurses/dialog/dialogbox.cpp:751
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:30
+#: src/ncurses/dialog/dialog_config.cpp:19
+#: src/ncurses/dialog/dialog_replace.cpp:31 src/ncurses/cmd_panel_chown.cpp:55
+msgid "Ok"
+msgstr ""
+
+#: src/ncurses/dialog/dialogbox.cpp:86
+msgid "Yes(Y)"
+msgstr ""
+
+#: src/ncurses/dialog/dialogbox.cpp:87
+msgid "No(N)"
+msgstr ""
+
+#: src/ncurses/dialog/dialogbox.cpp:380 src/ncurses/dialog/dialogbox.cpp:523
+#: src/ncurses/dialog/dialogbox.cpp:752
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:31
+#: src/ncurses/dialog/dialog_config.cpp:20
+#: src/ncurses/dialog/dialog_replace.cpp:32 src/ncurses/cmd_panel_chown.cpp:56
+#: src/ncurses/cmd_panel_imp.cpp:1518 src/ncurses/cmd_panel_imp.cpp:1532
+#: src/ncurses/cmd_panel_imp.cpp:1573 src/ncurses/ncurses_editor.cpp:499
+#: panel/common/panel.cpp:472 panel/vfs/libssh2/SFtpReader.cpp:947
+#: panel/vfs/libssh2/SFtpReader.cpp:1257 panel/vfs/ftp/ftpreader.cpp:700
+#: panel/vfs/ftp/ftpreader.cpp:1115 panel/vfs/ftp/ftpreader.cpp:1303
+#: panel/vfs/samba/SMBReader.cpp:581 panel/vfs/samba/SMBReader.cpp:888
+#: panel/vfs/dirreader.cpp:440 panel/vfs/dirreader.cpp:741
+#: editor/editor.cpp:845 editor/editorexecute.cpp:713
+msgid "Cancel"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:10
+msgid "Name"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:12
+msgid "SFTP"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:13
+msgid "FTP"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:14
+msgid "SAMBA"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:16
+msgid "Protocol"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:17
+msgid "Address"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:18 src/ncurses/mlsmenu.cpp:72
+#: src/ncurses/mlsmenu.cpp:159
+msgid "Directory"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:19
+msgid "Port"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:21
+msgid "UserName"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:22
+msgid "Password"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:24
+msgid "PublicKey"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:25
+msgid "PrivateKey"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:464
+msgid "Anonymous"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:633
+msgid "Insert"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:634
+msgid "Modify"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:635
+#: src/ncurses/mlsmenu.cpp:62 panel/vfs/ftp/ftpreader.cpp:863
+#: panel/vfs/dirreader.cpp:817
+msgid "Delete"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:636
+msgid "Close"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_config.cpp:17 src/ncurses/mlsmenu.cpp:133
+#: sh/keyset.cfg:341
+msgid "Configure"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_replace.cpp:28 src/ncurses/mlsmenu.cpp:56
+#: src/ncurses/mlsmenu.cpp:240 src/ncurses/mlsmenu.cpp:241
+#: editor/editorcmd.cpp:111 editor/editorcmd.cpp:112 sh/keyset.cfg:353
+msgid "Find"
+msgstr ""
+
+#: src/ncurses/dialog/dialog_replace.cpp:29 src/ncurses/ncurses_editor.cpp:440
+#: src/ncurses/ncurses_editor.cpp:496 src/ncurses/ncurses_editor.cpp:502
+#: src/ncurses/mlsmenu.cpp:246 sh/keyset.cfg:356
+msgid "Replace"
+msgstr ""
+
+#: src/ncurses/mainframe.cpp:601
+msgid "configure command not found.."
+msgstr ""
+
+#: src/ncurses/mainframe.cpp:602
+#, c-format
+msgid "[%s]"
+msgstr ""
+
+#: src/ncurses/mainframe.cpp:603 src/ncurses/cmd_panel_chown.cpp:312
+#: src/ncurses/cmd_settingchg.cpp:83 src/ncurses/main_ncurces.cpp:435
+#: src/ncurses/main_ncurces.cpp:470 src/ncurses/cmd_editor_imp.cpp:226
+#: src/ncurses/cmd_panel_imp.cpp:430 src/ncurses/cmd_panel_imp.cpp:503
+#: src/ncurses/cmd_panel_imp.cpp:659 src/ncurses/cmd_panel_imp.cpp:680
+#: src/ncurses/cmd_panel_imp.cpp:707 src/ncurses/cmd_panel_imp.cpp:855
+#: src/ncurses/cmd_panel_imp.cpp:978 src/ncurses/cmd_panel_imp.cpp:1203
+#: src/ncurses/cmd_panel_imp.cpp:1218 src/ncurses/cmd_panel_imp.cpp:1232
+#: src/ncurses/cmd_panel_imp.cpp:1405 src/ncurses/cmd_panel_imp.cpp:1411
+#: src/ncurses/cmd_panel_imp.cpp:1683 src/ncurses/cmd_panel_imp.cpp:1805
+#: src/ncurses/cmd_panel_imp.cpp:1818 src/ncurses/cmd_panel_imp.cpp:1879
+#: src/ncurses/cmd_panel_imp.cpp:1923 src/ncurses/cmd_panel_imp.cpp:1942
+#: src/ncurses/cmd_panel_imp.cpp:1996 src/ncurses/cmd_panel_imp.cpp:2027
+#: src/ncurses/cmd_panel_imp.cpp:2122 src/ncurses/cmd_mcd_imp.cpp:271
+#: src/ncurses/cmd_mcd_imp.cpp:297 src/ncurses/cmd_mcd_imp.cpp:334
+#: src/ncurses/cmd_mcd_imp.cpp:480 src/ncurses/cmd_mcd_imp.cpp:578
+#: panel/common/panel.cpp:224 panel/common/panel.cpp:234
+#: panel/common/panel.cpp:248 panel/common/panel.cpp:257
+#: panel/common/panel.cpp:455 panel/common/panel.cpp:640
+#: panel/common/panel.cpp:925 panel/common/mcd.cpp:678
+#: panel/vfs/archive/arcreader.cpp:32 panel/vfs/archive/arcreader.cpp:183
+#: panel/vfs/archive/arcreader.cpp:217 panel/vfs/archive/arcreader.cpp:265
+#: panel/vfs/archive/arcreader.cpp:285 panel/vfs/archive/arcreader.cpp:322
+#: panel/vfs/archive/archive.cpp:1464 panel/vfs/archive/archive.cpp:1527
+#: panel/vfs/archive/archive.cpp:1547 panel/vfs/archive/archive.cpp:1630
+#: panel/vfs/archive/archive.cpp:1649 panel/vfs/archive/archive.cpp:1734
+#: panel/vfs/archive/archive.cpp:1753 panel/vfs/archive/archive.cpp:1835
+#: panel/vfs/libssh2/SFtpReader.cpp:380 panel/vfs/libssh2/SFtpReader.cpp:405
+#: panel/vfs/libssh2/SFtpReader.cpp:547 panel/vfs/libssh2/SFtpReader.cpp:694
+#: panel/vfs/libssh2/SFtpReader.cpp:719 panel/vfs/libssh2/SFtpReader.cpp:758
+#: panel/vfs/libssh2/SFtpReader.cpp:808 panel/vfs/libssh2/SFtpReader.cpp:841
+#: panel/vfs/libssh2/SFtpReader.cpp:921 panel/vfs/libssh2/SFtpReader.cpp:986
+#: panel/vfs/libssh2/SFtpReader.cpp:996 panel/vfs/libssh2/SFtpReader.cpp:1038
+#: panel/vfs/libssh2/SFtpReader.cpp:1061 panel/vfs/libssh2/SFtpReader.cpp:1093
+#: panel/vfs/libssh2/SFtpReader.cpp:1119 panel/vfs/libssh2/SFtpReader.cpp:1197
+#: panel/vfs/libssh2/SFtpReader.cpp:1225 panel/vfs/libssh2/SFtpReader.cpp:1299
+#: panel/vfs/libssh2/SFtpReader.cpp:1310 panel/vfs/libssh2/SFtpReader.cpp:1353
+#: panel/vfs/libssh2/SFtpReader.cpp:1393 panel/vfs/libssh2/SFtpReader.cpp:1424
+#: panel/vfs/libssh2/SFtpReader.cpp:1504 panel/vfs/libssh2/SFtpReader.cpp:1524
+#: panel/vfs/libssh2/SFtpReader.cpp:1545 panel/vfs/libssh2/SFtpReader.cpp:1601
+#: panel/vfs/libssh2/SFtpReader.cpp:1629 panel/vfs/libssh2/SFtpReader.cpp:1669
+#: panel/vfs/libssh2/SFtpReader.cpp:1689 panel/vfs/libssh2/SFtpReader.cpp:1712
+#: panel/vfs/ftp/ftpreader.cpp:150 panel/vfs/ftp/ftpreader.cpp:159
+#: panel/vfs/ftp/ftpreader.cpp:169 panel/vfs/ftp/ftpreader.cpp:285
+#: panel/vfs/ftp/ftpreader.cpp:301 panel/vfs/ftp/ftpreader.cpp:427
+#: panel/vfs/ftp/ftpreader.cpp:456 panel/vfs/ftp/ftpreader.cpp:496
+#: panel/vfs/ftp/ftpreader.cpp:502 panel/vfs/ftp/ftpreader.cpp:558
+#: panel/vfs/ftp/ftpreader.cpp:643 panel/vfs/ftp/ftpreader.cpp:650
+#: panel/vfs/ftp/ftpreader.cpp:667 panel/vfs/ftp/ftpreader.cpp:674
+#: panel/vfs/ftp/ftpreader.cpp:740 panel/vfs/ftp/ftpreader.cpp:750
+#: panel/vfs/ftp/ftpreader.cpp:827 panel/vfs/ftp/ftpreader.cpp:832
+#: panel/vfs/ftp/ftpreader.cpp:923 panel/vfs/ftp/ftpreader.cpp:931
+#: panel/vfs/ftp/ftpreader.cpp:959 panel/vfs/ftp/ftpreader.cpp:969
+#: panel/vfs/ftp/ftpreader.cpp:1045 panel/vfs/ftp/ftpreader.cpp:1050
+#: panel/vfs/ftp/ftpreader.cpp:1078 panel/vfs/ftp/ftpreader.cpp:1099
+#: panel/vfs/ftp/ftpreader.cpp:1156 panel/vfs/ftp/ftpreader.cpp:1166
+#: panel/vfs/ftp/ftpreader.cpp:1210 panel/vfs/ftp/ftpreader.cpp:1218
+#: panel/vfs/ftp/ftpreader.cpp:1242 panel/vfs/ftp/ftpreader.cpp:1269
+#: panel/vfs/samba/SMBReader.cpp:311 panel/vfs/samba/SMBReader.cpp:357
+#: panel/vfs/samba/SMBReader.cpp:555 panel/vfs/samba/SMBReader.cpp:620
+#: panel/vfs/samba/SMBReader.cpp:630 panel/vfs/samba/SMBReader.cpp:672
+#: panel/vfs/samba/SMBReader.cpp:692 panel/vfs/samba/SMBReader.cpp:724
+#: panel/vfs/samba/SMBReader.cpp:753 panel/vfs/samba/SMBReader.cpp:829
+#: panel/vfs/samba/SMBReader.cpp:857 panel/vfs/samba/SMBReader.cpp:927
+#: panel/vfs/samba/SMBReader.cpp:938 panel/vfs/samba/SMBReader.cpp:978
+#: panel/vfs/samba/SMBReader.cpp:1016 panel/vfs/samba/SMBReader.cpp:1049
+#: panel/vfs/samba/SMBReader.cpp:1131 panel/vfs/samba/SMBReader.cpp:1151
+#: panel/vfs/samba/SMBReader.cpp:1172 panel/vfs/samba/SMBReader.cpp:1228
+#: panel/vfs/samba/SMBReader.cpp:1253 panel/vfs/samba/SMBReader.cpp:1291
+#: panel/vfs/samba/SMBReader.cpp:1311 panel/vfs/samba/SMBReader.cpp:1356
+#: panel/vfs/samba/SMBReader.cpp:1380 panel/vfs/samba/SMBReader.cpp:1431
+#: panel/vfs/dirreader.cpp:193 panel/vfs/dirreader.cpp:200
+#: panel/vfs/dirreader.cpp:208 panel/vfs/dirreader.cpp:237
+#: panel/vfs/dirreader.cpp:252 panel/vfs/dirreader.cpp:262
+#: panel/vfs/dirreader.cpp:416 panel/vfs/dirreader.cpp:479
+#: panel/vfs/dirreader.cpp:490 panel/vfs/dirreader.cpp:532
+#: panel/vfs/dirreader.cpp:570 panel/vfs/dirreader.cpp:620
+#: panel/vfs/dirreader.cpp:725 panel/vfs/dirreader.cpp:905
+#: panel/vfs/dirreader.cpp:939 editor/editor.cpp:258 editor/editor.cpp:280
+#: editor/editor.cpp:301 editor/editor.cpp:352 editor/editor.cpp:360
+#: editor/editor.cpp:366 editor/editor.cpp:793 editor/editorexecute.cpp:642
+#: editor/editorexecute.cpp:662 editor/editorexecute.cpp:674
+#: panel/vfs/archive/arcreader.h:71 panel/vfs/archive/arcreader.h:77
+#: panel/vfs/ftp/ftpreader.h:110 panel/vfs/dirreader.h:66
+#: panel/vfs/dirreader.h:95 panel/vfs/dirreader.h:116
+msgid "Error"
+msgstr ""
+
+#: src/ncurses/mainframe.cpp:809 src/ncurses/mlsmenu.cpp:59
+#: src/ncurses/mlsmenu.cpp:224 panel/vfs/libssh2/SFtpReader.cpp:885
+#: panel/vfs/libssh2/SFtpReader.cpp:1166 panel/vfs/ftp/ftpreader.cpp:604
+#: panel/vfs/ftp/ftpreader.cpp:1013 panel/vfs/samba/SMBReader.cpp:519
+#: panel/vfs/samba/SMBReader.cpp:798 panel/vfs/dirreader.cpp:370
+#: editor/editorcmd.cpp:95
+msgid "Copy"
+msgstr ""
+
+#: src/ncurses/mainframe.cpp:809
+msgid "Do you really want to select files copy int next panel directory?"
+msgstr ""
+
+#: src/ncurses/mainframe.cpp:832 src/ncurses/mlsmenu.cpp:60
+#: panel/vfs/dirreader.cpp:681 sh/keyset.cfg:284 sh/keyset.cfg:331
+msgid "Move"
+msgstr ""
+
+#: src/ncurses/mainframe.cpp:832
+msgid "Do you really want to select files move into next panel directory?"
+msgstr ""
+
+#: src/ncurses/cmd_panel_chown.cpp:52
+msgid "[ Owner ]"
+msgstr ""
+
+#: src/ncurses/cmd_panel_chown.cpp:53
+msgid "[ Group ]"
+msgstr ""
+
+#: src/ncurses/cmd_panel_chown.cpp:312 src/ncurses/cmd_panel_imp.cpp:2027
+msgid "current connect mode or archive mode."
+msgstr ""
+
+#: src/ncurses/cmd_panel_chown.cpp:356 src/ncurses/cmd_panel_imp.cpp:263
+#: src/ncurses/cmd_panel_imp.cpp:1603 src/ncurses/cmd_panel_imp.cpp:1695
+msgid "Question"
+msgstr ""
+
+#: src/ncurses/cmd_panel_chown.cpp:356
+msgid "subdirectory files change ?"
+msgstr ""
+
+#: src/ncurses/cmd_panel_chown.cpp:387
+msgid "Chown command"
+msgstr ""
+
+#: src/ncurses/cmd_panel_chown.cpp:420 src/ncurses/cmd_panel_imp.cpp:1771
+msgid "Error Info"
+msgstr ""
+
+#: src/ncurses/cmd_panel_find.cpp:34
+msgid "input search filename."
+msgstr ""
+
+#: src/ncurses/cmd_panel_find.cpp:39 src/ncurses/cmd_panel_imp.cpp:282
+#: src/ncurses/cmd_panel_imp.cpp:395 src/ncurses/cmd_panel_imp.cpp:470
+#: src/ncurses/cmd_panel_imp.cpp:1263 src/ncurses/cmd_panel_imp.cpp:1417
+#: src/ncurses/cmd_panel_imp.cpp:1434 src/ncurses/cmd_mcd_imp.cpp:28
+#: src/ncurses/cmd_mcd_imp.cpp:101 src/ncurses/cmd_mcd_imp.cpp:704
+#: src/ncurses/cmd_mcd_imp.cpp:716 src/ncurses/cmd_mcd_imp.cpp:741
+#: panel/common/mcd.cpp:652 panel/vfs/archive/arcreader.cpp:10
+#: panel/vfs/archive/arcreader.cpp:174 panel/vfs/archive/arcreader.cpp:203
+#: panel/vfs/archive/arcreader.cpp:275 panel/vfs/archive/arcreader.cpp:299
+msgid "Wait"
+msgstr ""
+
+#: src/ncurses/cmd_panel_find.cpp:40 src/ncurses/cmd_panel_imp.cpp:283
+#: src/ncurses/cmd_panel_imp.cpp:396 src/ncurses/cmd_panel_imp.cpp:471
+#: src/ncurses/cmd_panel_imp.cpp:1264 src/ncurses/cmd_panel_imp.cpp:1435
+#: src/ncurses/cmd_mcd_imp.cpp:29 src/ncurses/cmd_mcd_imp.cpp:705
+#: src/ncurses/cmd_mcd_imp.cpp:717 src/ncurses/cmd_mcd_imp.cpp:742
+#: panel/common/mcd.cpp:653
+msgid "Please wait !!! - Cancel Key [ESC]"
+msgstr ""
+
+#: src/ncurses/cmd_panel_find.cpp:69 panel/vfs/libssh2/SFtpReader.cpp:1075
+#: panel/vfs/libssh2/SFtpReader.cpp:1369 panel/vfs/libssh2/SFtpReader.cpp:1566
+#: panel/vfs/libssh2/SFtpReader.cpp:1644 panel/vfs/ftp/ftpreader.cpp:528
+#: panel/vfs/ftp/ftpreader.cpp:792 panel/vfs/ftp/ftpreader.cpp:1228
+#: panel/vfs/samba/SMBReader.cpp:706 panel/vfs/samba/SMBReader.cpp:992
+#: panel/vfs/samba/SMBReader.cpp:1193 panel/vfs/samba/SMBReader.cpp:1268
+#: panel/vfs/dirreader.cpp:400 panel/vfs/dirreader.cpp:593
+msgid "Warning"
+msgstr ""
+
+#: src/ncurses/cmd_panel_find.cpp:69
+msgid "File Not Found."
+msgstr ""
+
+#: src/ncurses/cmd_panel_find.cpp:77
+#, c-format
+msgid "Find List - %d"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:11
+msgid "file sort (0:none,1:name,2:ext,3:size.3:time,5:color)"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:14
+msgid "max column size ( 0:Auto, 1~6 )"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:17
+msgid "directory first sort"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:20
+msgid "choice file execute"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:23
+msgid "hidden file view"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:26
+msgid "hint view"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:29
+msgid "always screen redraw"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:32
+msgid "default use LinM editor."
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:35
+msgid "external editor program"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:38
+msgid "LinM editor tab width"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:41
+msgid "LinM editor backup on save"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:44
+msgid "LinM editor line number view"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:47
+msgid "line code change '-,+'"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:50
+msgid "diff program"
+msgstr ""
+
+#: src/ncurses/cmd_settingchg.cpp:83
+msgid "is invalid."
+msgstr ""
+
+#: src/ncurses/main_ncurces.cpp:436
+msgid "configuration files are not compatible. configuration files copy ?"
+msgstr ""
+
+#: src/ncurses/main_ncurces.cpp:470
+msgid "LinM is already running on this terminal. LinM is return key [ Ctrl+O ]"
+msgstr ""
+
+#: src/ncurses/cmd_editor_imp.cpp:226
+msgid "NewFile is local use only."
+msgstr ""
+
+#: src/ncurses/cmd_editor_imp.cpp:290
+msgid "Vim View"
+msgstr ""
+
+#: src/ncurses/cmd_editor_imp.cpp:290
+msgid "Do you wan't vi editor ?"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:37 src/ncurses/mlsmenu.cpp:32
+#: src/ncurses/mlsmenu.cpp:153 src/ncurses/mlsmenu.cpp:282
+#: editor/editorcmd.cpp:130
+msgid "About"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:48
+msgid "LinM Key List"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:52
+msgid "File Panel Key List"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:78
+msgid "LinM Change Directory Key List"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:101
+msgid "Simple Editor Key List"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:126
+msgid "LinM Function Key List"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:130
+msgid "File Panel Function Key List"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:146
+msgid "LinM Change Directory Function Key List"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:161
+msgid "Simple Editor Function Key List"
+msgstr ""
+
+#: src/ncurses/cmd_common_imp.cpp:176 src/ncurses/mainframe_view.cpp:141
+#: src/ncurses/mlsmenu.cpp:33 src/ncurses/mlsmenu.cpp:154
+#: src/ncurses/mlsmenu.cpp:281 src/ncurses/mlsmenu.cpp:284
+#: editor/editorcmd.cpp:129 editor/editorcmd.cpp:132 sh/keyset.cfg:275
+msgid "Help"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:66
+msgid "Press any key to return LinM..."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:260
+msgid "Edit Parameter"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:263
+msgid "Do you want to run this operation?"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:430
+msgid "Don't directory edit."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:503
+msgid "File loading failure."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:623 sh/keyset.cfg:292
+msgid "LinM Quit"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:623
+msgid "Do you really want to quit the LinM ?"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:680 src/ncurses/cmd_panel_imp.cpp:1805
+#: src/ncurses/cmd_mcd_imp.cpp:271
+msgid "current remote connected."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:688
+msgid "Input sftp,ftp,smb connect url (ex. sftp://user:pswd@hostname)"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:707 src/ncurses/cmd_panel_imp.cpp:1996
+#: src/ncurses/cmd_mcd_imp.cpp:297
+msgid "input url invalid format."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:726 src/ncurses/cmd_mcd_imp.cpp:315
+msgid "Remote Close"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:726 src/ncurses/cmd_mcd_imp.cpp:315
+msgid "Do you really want to remote connection close ?"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:855 src/ncurses/cmd_panel_imp.cpp:978
+#: src/ncurses/cmd_mcd_imp.cpp:480 src/ncurses/cmd_mcd_imp.cpp:578
+#: panel/common/panel.cpp:224 panel/common/panel.cpp:248
+msgid "plugin not found."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1203 src/ncurses/cmd_panel_imp.cpp:1218
+#: src/ncurses/cmd_panel_imp.cpp:1232
+msgid "Don't execute remote connect or archive file view."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1271 src/ncurses/cmd_mcd_imp.cpp:749
+#, c-format
+msgid "  Selected files     %10s  /  %10s byte  "
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1275 src/ncurses/cmd_mcd_imp.cpp:753
+#: src/ncurses/mlsmenu.cpp:66
+msgid "Size info"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1376
+msgid "Input name of the compressed file. [filename]"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1405
+msgid "input file used."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1415
+msgid "Please wait !!! - Compress file ["
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1449
+#, c-format
+msgid "Selected files     %10s  /  %10s byte  "
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1486
+msgid "Clipboard View"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1503
+msgid "Compress the select files."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1529
+msgid "Current file install."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1571
+msgid "Install"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1572
+msgid "Install Nodeps"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1600
+msgid "Do you want install current file ?"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1683
+msgid "chmod local file system only."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1695
+msgid "subdirectory files permision change ?"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1723
+msgid "set user ID on execution"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1724
+msgid "set group ID on execution"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1725
+msgid "sticky bit"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1727
+msgid "read by owner"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1728
+msgid "write by owner"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1729
+msgid "execute/search by owner"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1731
+msgid "read by group"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1732
+msgid "write by group"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1733
+msgid "execute/search by group"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1735
+msgid "read by other"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1736
+msgid "write by other"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1737
+msgid "execute/search by other"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1741
+msgid "Chmod selected files"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1818
+msgid "Terminal size is too small."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1842
+msgid "Remote Connect Properties"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1865
+msgid "Remote Connect Insert"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1879 src/ncurses/cmd_panel_imp.cpp:1923
+msgid "Connection Name Overlapping."
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1908
+msgid "Remote Connect Modify"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:1940
+#, c-format
+msgid "Do you really remove connection infomation? - %s"
+msgstr ""
+
+#: src/ncurses/cmd_panel_imp.cpp:2122
+msgid "this system can't console mode."
+msgstr ""
+
+#: src/ncurses/ncurses_editor.cpp:383
+msgid "[Ins]"
+msgstr ""
+
+#: src/ncurses/ncurses_editor.cpp:385
+msgid "[Ovr]"
+msgstr ""
+
+#: src/ncurses/ncurses_editor.cpp:388
+msgid "[Select]"
+msgstr ""
+
+#: src/ncurses/ncurses_editor.cpp:416
+msgid "[Read Only]"
+msgstr ""
+
+#: src/ncurses/ncurses_editor.cpp:423
+msgid "[Change]"
+msgstr ""
+
+#: src/ncurses/ncurses_editor.cpp:497
+msgid "Replace All"
+msgstr ""
+
+#: src/ncurses/ncurses_editor.cpp:498 panel/vfs/libssh2/SFtpReader.cpp:943
+#: panel/vfs/libssh2/SFtpReader.cpp:1253 panel/vfs/ftp/ftpreader.cpp:696
+#: panel/vfs/ftp/ftpreader.cpp:1111 panel/vfs/samba/SMBReader.cpp:577
+#: panel/vfs/samba/SMBReader.cpp:884 panel/vfs/dirreader.cpp:436
+#: panel/vfs/dirreader.cpp:739
+msgid "Skip"
+msgstr ""
+
+#: src/ncurses/ncurses_editor.cpp:557
+msgid "Replace Next"
+msgstr ""
+
+#: src/ncurses/ncurses_editor.cpp:558 editor/editorexecute.cpp:791
+msgid "End of document reached. Continue from the begining?"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:135 src/ncurses/mlsmenu.cpp:217
+#: editor/editorcmd.cpp:88
+msgid "Quit"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:136 sh/keyset.cfg:276
+msgid "Menu"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:137 src/ncurses/mlsmenu.cpp:126
+#: src/ncurses/mlsmenu.cpp:189 src/ncurses/mlsmenu.cpp:252
+msgid "Split"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:138
+msgid "Shell"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:139 sh/keyset.cfg:288
+msgid "MCD"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:140 sh/keyset.cfg:289
+msgid "QCD"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:146 src/ncurses/mainframe_view.cpp:165
+#: src/ncurses/mlsmenu.cpp:53 src/ncurses/mlsmenu.cpp:167
+msgid "ClipCopy"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:147 src/ncurses/mainframe_view.cpp:166
+#: src/ncurses/mlsmenu.cpp:52 src/ncurses/mlsmenu.cpp:166
+msgid "ClipCut"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:148 src/ncurses/mainframe_view.cpp:167
+#: src/ncurses/mlsmenu.cpp:54 src/ncurses/mlsmenu.cpp:168
+msgid "ClipPaste"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:149 sh/keyset.cfg:352
+msgid "Select"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:151
+msgid "RemoteConnect"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:156
+msgid "SubDirOneSearch"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:158
+msgid "SubDirAllSearch"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:160
+msgid "SubDirClear"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:168
+msgid "SelectMode"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:195
+msgid "Hint: "
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:217
+msgid "Select the directory where you want to extract these files."
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:225
+msgid "Select the directory where you want to copy these files."
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:230
+msgid "Select the directory where you want to move these files."
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:263 src/ncurses/mlsmenu.cpp:48
+#: src/ncurses/mlsmenu.cpp:211 editor/editorcmd.cpp:82
+msgid "File"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:264
+msgid "Dir"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:265
+msgid "Byte"
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:269
+msgid " Selected ("
+msgstr ""
+
+#: src/ncurses/mainframe_view.cpp:270
+msgid "Bytes)       "
+msgstr ""
+
+#: src/ncurses/cmd_mcd_imp.cpp:100
+msgid "Please wait !!! - Uncompress file ["
+msgstr ""
+
+#: src/ncurses/cmd_mcd_imp.cpp:276
+msgid "Input sftp(ftp) connect url (sftp://user:pswd@hostname)"
+msgstr ""
+
+#: src/ncurses/cmd_mcd_imp.cpp:334
+msgid "remove not root directory. !!!"
+msgstr ""
+
+#: src/ncurses/cmd_mcd_imp.cpp:700
+msgid "All Rescan"
+msgstr ""
+
+#: src/ncurses/cmd_mcd_imp.cpp:701
+msgid "Do you really want to directory all rescan ?"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:35
+msgid "Quit LinM"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:38 src/ncurses/mlsmenu.cpp:39
+#: panel/common/panel.cpp:466
+msgid "Run"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:40
+msgid "Run(select)"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:42
+msgid "Console Mode"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:43
+msgid "Shell command"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:45
+msgid "View console"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:49 src/ncurses/mlsmenu.cpp:212
+#: editor/editorcmd.cpp:83
+msgid "New"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:50
+msgid "Touch File"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:57 sh/keyset.cfg:310
+msgid "Diff"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:61 src/ncurses/mlsmenu.cpp:161
+#: panel/vfs/libssh2/SFtpReader.cpp:785 panel/vfs/libssh2/SFtpReader.cpp:944
+#: panel/vfs/libssh2/SFtpReader.cpp:978 panel/vfs/libssh2/SFtpReader.cpp:1254
+#: panel/vfs/libssh2/SFtpReader.cpp:1286 panel/vfs/ftp/ftpreader.cpp:413
+#: panel/vfs/ftp/ftpreader.cpp:697 panel/vfs/ftp/ftpreader.cpp:732
+#: panel/vfs/ftp/ftpreader.cpp:1112 panel/vfs/ftp/ftpreader.cpp:1145
+#: panel/vfs/samba/SMBReader.cpp:578 panel/vfs/samba/SMBReader.cpp:612
+#: panel/vfs/samba/SMBReader.cpp:885 panel/vfs/samba/SMBReader.cpp:917
+#: panel/vfs/samba/SMBReader.cpp:1340 panel/vfs/dirreader.cpp:437
+#: panel/vfs/dirreader.cpp:471 panel/vfs/dirreader.h:85 sh/keyset.cfg:281
+#: sh/keyset.cfg:329
+msgid "Rename"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:63 sh/keyset.cfg:308
+msgid "Chmod"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:64 sh/keyset.cfg:309
+msgid "Chown"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:68
+msgid "Select all"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:69
+msgid "Invert select"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:76 src/ncurses/mlsmenu.cpp:163 sh/keyset.cfg:301
+msgid "Mount List"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:77
+msgid "SyncDir"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:79 src/ncurses/mlsmenu.cpp:160 sh/keyset.cfg:285
+#: sh/keyset.cfg:328
+msgid "Mkdir"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:80 src/ncurses/mlsmenu.cpp:170
+msgid "To parent"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:81 src/ncurses/mlsmenu.cpp:171
+msgid "To root"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:82 src/ncurses/mlsmenu.cpp:172
+msgid "To home"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:84
+msgid "Back"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:85
+msgid "Forward"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:90 src/ncurses/mlsmenu.cpp:175
+msgid "Util"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:91
+msgid "Remote Connect"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:92 src/ncurses/mlsmenu.cpp:176
+msgid "Quick Connect"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:93 src/ncurses/mlsmenu.cpp:177
+msgid "Disconnect"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:95
+msgid "Extract"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:97
+msgid "Compress (tar.gz)"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:98
+msgid "Compress (tar.bz2)"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:99
+msgid "Compress (zip)"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:102 src/ncurses/mlsmenu.cpp:180
+#: src/ncurses/mlsmenu.cpp:249 editor/editorcmd.cpp:118
+msgid "View"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:103 src/ncurses/mlsmenu.cpp:181
+#: src/ncurses/mlsmenu.cpp:250 editor/editorcmd.cpp:119 sh/keyset.cfg:278
+msgid "Refresh"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:105
+msgid "Column AUTO"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:107
+msgid "Column 1"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:108
+msgid "Column 2"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:109
+msgid "Column 3"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:110
+msgid "Column 4"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:112
+msgid "ViewClip"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:115 src/ncurses/mlsmenu.cpp:184
+msgid "Hide hidden file"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:117 src/ncurses/mlsmenu.cpp:186
+msgid "Show hidden file"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:120
+msgid "Hide owner"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:122
+msgid "Show owner"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:124 src/ncurses/mlsmenu.cpp:187
+msgid "Sort Change"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:127 src/ncurses/mlsmenu.cpp:190
+#: src/ncurses/mlsmenu.cpp:253
+msgid "Next window"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:129 src/ncurses/mlsmenu.cpp:192
+msgid "SplitSync On/Off"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:132 src/ncurses/mlsmenu.cpp:196
+#: src/ncurses/mlsmenu.cpp:265
+msgid "Option"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:135 src/ncurses/mlsmenu.cpp:197
+#: src/ncurses/mlsmenu.cpp:266
+msgid "Linecode Change"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:136
+msgid "Locale Change"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:138
+msgid "Edit Config"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:139
+msgid "Edit Keybind"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:140
+msgid "Edit Colorset"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:156
+msgid "Quit Mcd"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:164
+msgid "Size Info"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:199 src/ncurses/mlsmenu.cpp:267
+msgid "Korean Mode"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:214 editor/editorcmd.cpp:85
+msgid "Save"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:215 editor/editorcmd.cpp:86
+msgid "Save As"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:220 panel/common/panel.cpp:468
+#: editor/editorcmd.cpp:91
+msgid "Edit"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:221 editor/editorcmd.cpp:92 sh/keyset.cfg:346
+msgid "Undo"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:223 editor/editorcmd.cpp:94
+msgid "Cut"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:225 editor/editorcmd.cpp:96
+msgid "Paste"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:227 editor/editorcmd.cpp:98
+msgid "Indent"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:228 editor/editorcmd.cpp:99 sh/keyset.cfg:345
+msgid "Unindent"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:231 editor/editorcmd.cpp:102
+msgid "Indent Off"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:233 editor/editorcmd.cpp:104
+msgid "Indent On"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:235 editor/editorcmd.cpp:106 sh/keyset.cfg:351
+msgid "Select All"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:237 editor/editorcmd.cpp:108
+msgid "Select Mode"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:243 editor/editorcmd.cpp:114
+msgid "Find Next"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:244 editor/editorcmd.cpp:115
+msgid "Find Previous"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:255 editor/editorcmd.cpp:121
+msgid "Show line numbers"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:257 editor/editorcmd.cpp:123 sh/keyset.cfg:358
+msgid "Goto Line"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:259 editor/editorcmd.cpp:125 sh/keyset.cfg:359
+msgid "Goto First"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:260 editor/editorcmd.cpp:126 sh/keyset.cfg:360
+msgid "Goto End"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:262
+msgid "Vim Editor"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:273
+msgid "Mouse Mode On"
+msgstr ""
+
+#: src/ncurses/mlsmenu.cpp:275 src/ncurses/mlsmenu.cpp:278
+msgid "Mouse Mode Off"
+msgstr ""
+
+#: panel/common/panel.cpp:234 panel/common/panel.cpp:257
+msgid "remote disconnected."
+msgstr ""
+
+#: panel/common/panel.cpp:455 panel/common/panel.cpp:640
+msgid "configure file parsing error !!! "
+msgstr ""
+
+#: panel/common/panel.cpp:467
+msgid "Run(root)"
+msgstr ""
+
+#: panel/common/panel.cpp:469
+msgid "ExtEditor"
+msgstr ""
+
+#: panel/common/panel.cpp:470
+msgid "Parameter"
+msgstr ""
+
+#: panel/common/panel.cpp:471
+msgid "Parameter(root)"
+msgstr ""
+
+#: panel/common/panel.cpp:474 panel/common/panel.cpp:650
+msgid "Execute select"
+msgstr ""
+
+#: panel/common/panel.cpp:516
+msgid "Input parameter."
+msgstr ""
+
+#: panel/common/panel.cpp:925 panel/common/mcd.cpp:678
+msgid "mounted list local system use only."
+msgstr ""
+
+#: panel/common/panel.cpp:958 panel/common/mcd.cpp:711
+msgid "go to the mounted directory."
+msgstr ""
+
+#: panel/vfs/archive/arcreader.cpp:11 panel/vfs/archive/arcreader.cpp:175
+#: panel/vfs/archive/arcreader.cpp:204 panel/vfs/archive/arcreader.cpp:276
+#: panel/vfs/archive/arcreader.cpp:300
+msgid "Please wait !!! - Cancel Key [Ctrl+C]"
+msgstr ""
+
+#: panel/vfs/archive/arcreader.cpp:183 panel/vfs/archive/arcreader.cpp:217
+#: panel/vfs/archive/arcreader.cpp:285 panel/vfs/archive/arcreader.cpp:322
+msgid "Uncompress failure !!!"
+msgstr ""
+
+#: panel/vfs/archive/arcreader.cpp:265
+msgid "Compress move failure !!!"
+msgstr ""
+
+#: panel/vfs/archive/archive.cpp:96
+msgid "File open error !!!"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:238
+msgid "Input sftp connect url (user:passwd@hostname/dir)"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:259 panel/vfs/libssh2/SFtpReader.cpp:328
+msgid "SFtp connect"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:259 panel/vfs/libssh2/SFtpReader.cpp:328
+#: panel/vfs/ftp/ftpreader.cpp:143 panel/vfs/samba/SMBReader.cpp:284
+msgid "Please wait !!!"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:282
+msgid "RSA key Finger info"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:336
+msgid "Authentication by password failed."
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:366
+msgid "Unable to open a sftp session."
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:380
+msgid "get current dir reading failure !!!"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:717 panel/vfs/libssh2/SFtpReader.cpp:756
+msgid "sftp file reading failure."
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:806
+#, c-format
+msgid "SFtp rename failure !!! [%s]"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:827 panel/vfs/ftp/ftpreader.cpp:445
+#: panel/vfs/samba/SMBReader.cpp:1367 panel/vfs/dirreader.h:107
+msgid "Make Directory"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:839
+#, c-format
+msgid "SFtp mkdir failure !!! [%s]"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:885 panel/vfs/libssh2/SFtpReader.cpp:1166
+#: panel/vfs/ftp/ftpreader.cpp:604 panel/vfs/ftp/ftpreader.cpp:1013
+#: panel/vfs/samba/SMBReader.cpp:519 panel/vfs/samba/SMBReader.cpp:798
+#: panel/vfs/dirreader.cpp:370 panel/vfs/dirreader.cpp:681
+msgid "To "
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:918 panel/vfs/libssh2/SFtpReader.cpp:1058
+#: panel/vfs/samba/SMBReader.cpp:552 panel/vfs/samba/SMBReader.cpp:689
+#, c-format
+msgid "File access error (%s), continue? !!! "
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:942 panel/vfs/libssh2/SFtpReader.cpp:1252
+#: panel/vfs/ftp/ftpreader.cpp:695 panel/vfs/ftp/ftpreader.cpp:1110
+#: panel/vfs/samba/SMBReader.cpp:576 panel/vfs/samba/SMBReader.cpp:883
+#: panel/vfs/dirreader.cpp:435 panel/vfs/dirreader.cpp:738
+msgid "Overwrite"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:945 panel/vfs/libssh2/SFtpReader.cpp:1255
+#: panel/vfs/ftp/ftpreader.cpp:698 panel/vfs/ftp/ftpreader.cpp:1113
+#: panel/vfs/samba/SMBReader.cpp:579 panel/vfs/samba/SMBReader.cpp:886
+#: panel/vfs/dirreader.cpp:438 panel/vfs/dirreader.cpp:740
+msgid "Overwrite All"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:946 panel/vfs/libssh2/SFtpReader.cpp:1256
+#: panel/vfs/ftp/ftpreader.cpp:699 panel/vfs/ftp/ftpreader.cpp:1114
+#: panel/vfs/samba/SMBReader.cpp:580 panel/vfs/samba/SMBReader.cpp:887
+#: panel/vfs/dirreader.cpp:439
+msgid "Skip All"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:951 panel/vfs/libssh2/SFtpReader.cpp:1261
+#: panel/vfs/ftp/ftpreader.cpp:705 panel/vfs/ftp/ftpreader.cpp:1120
+#: panel/vfs/samba/SMBReader.cpp:585 panel/vfs/samba/SMBReader.cpp:892
+#: panel/vfs/dirreader.cpp:444 panel/vfs/dirreader.cpp:743
+msgid "File exists : "
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:986 panel/vfs/libssh2/SFtpReader.cpp:1299
+#: panel/vfs/ftp/ftpreader.cpp:740 panel/vfs/samba/SMBReader.cpp:620
+#: panel/vfs/samba/SMBReader.cpp:927 panel/vfs/dirreader.cpp:479
+msgid "File exists"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:996 panel/vfs/libssh2/SFtpReader.cpp:1310
+#: panel/vfs/ftp/ftpreader.cpp:750 panel/vfs/ftp/ftpreader.cpp:1166
+#: panel/vfs/samba/SMBReader.cpp:630 panel/vfs/samba/SMBReader.cpp:938
+#: panel/vfs/dirreader.cpp:490
+msgid "Directory can't rename."
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1038 panel/vfs/ftp/ftpreader.cpp:650
+#: panel/vfs/samba/SMBReader.cpp:672 panel/vfs/dirreader.cpp:532
+msgid "Directory Making error"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1075 panel/vfs/libssh2/SFtpReader.cpp:1369
+#: panel/vfs/libssh2/SFtpReader.cpp:1644 panel/vfs/ftp/ftpreader.cpp:528
+#: panel/vfs/ftp/ftpreader.cpp:792 panel/vfs/ftp/ftpreader.cpp:1228
+#: panel/vfs/samba/SMBReader.cpp:706 panel/vfs/samba/SMBReader.cpp:992
+#: panel/vfs/samba/SMBReader.cpp:1268 panel/vfs/dirreader.cpp:400
+#: panel/vfs/dirreader.cpp:593
+msgid "Do you want to stop copy operation?"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1090 panel/vfs/samba/SMBReader.cpp:721
+#, c-format
+msgid "remote file access error (%s), continue? !!! "
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1119 panel/vfs/ftp/ftpreader.cpp:832
+#: panel/vfs/samba/SMBReader.cpp:753
+msgid "local file access error, continue?"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1194
+#, c-format
+msgid "SFtp Directory exists, continue !!! [%s]"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1223 panel/vfs/ftp/ftpreader.cpp:1076
+#: panel/vfs/samba/SMBReader.cpp:855 panel/vfs/dirreader.cpp:415
+#, c-format
+msgid "Source is not found : %s"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1391 panel/vfs/ftp/ftpreader.cpp:1242
+#: panel/vfs/samba/SMBReader.cpp:1014
+msgid "file writing failure. continue?"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1424 panel/vfs/ftp/ftpreader.cpp:1269
+#: panel/vfs/samba/SMBReader.cpp:1049 panel/vfs/dirreader.cpp:620
+msgid "File access error, continue?"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1443
+msgid "sftp delete file"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1446 panel/vfs/ftp/ftpreader.cpp:867
+#: panel/vfs/samba/SMBReader.cpp:1073 panel/vfs/dirreader.cpp:821
+msgid "Info"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1446
+msgid "sftp delete file ?"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1448 panel/vfs/ftp/ftpreader.cpp:869
+#: panel/vfs/samba/SMBReader.cpp:1075 panel/vfs/dirreader.cpp:823
+msgid "Counting files..."
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1501
+#, c-format
+msgid "sftp file remove failure : %s : continue ? "
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1524 panel/vfs/libssh2/SFtpReader.cpp:1566
+#: panel/vfs/samba/SMBReader.cpp:1151 panel/vfs/samba/SMBReader.cpp:1193
+msgid "Do you want to stop remove operation?"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1542
+#, c-format
+msgid "sftp dir remove failure : %s : %s. continue ? "
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1599 panel/vfs/libssh2/SFtpReader.cpp:1626
+#: panel/vfs/libssh2/SFtpReader.cpp:1710 panel/vfs/ftp/ftpreader.cpp:673
+#: panel/vfs/ftp/ftpreader.cpp:1216 panel/vfs/samba/SMBReader.cpp:1226
+#: panel/vfs/samba/SMBReader.cpp:1250 panel/vfs/samba/SMBReader.cpp:1429
+#, c-format
+msgid "File access error (%s), continue? !!!"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1613 panel/vfs/samba/SMBReader.cpp:1240
+msgid "sftp view file"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1664 panel/vfs/samba/SMBReader.cpp:1286
+#, c-format
+msgid "File access error (%s). !!!"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1689 panel/vfs/ftp/ftpreader.cpp:558
+#: panel/vfs/samba/SMBReader.cpp:1311
+msgid "local file access error !!!"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1737 panel/vfs/ftp/ftpreader.cpp:1300
+#: panel/vfs/samba/SMBReader.cpp:1405
+msgid "LocalEncode"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1738 panel/vfs/ftp/ftpreader.cpp:1301
+#: panel/vfs/samba/SMBReader.cpp:1406 editor/editorexecute.cpp:707
+msgid "EUC-KR"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1739 panel/vfs/ftp/ftpreader.cpp:1302
+#: panel/vfs/samba/SMBReader.cpp:1407 editor/editorexecute.cpp:708
+msgid "UTF-8"
+msgstr ""
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1741 panel/vfs/ftp/ftpreader.cpp:1305
+#: panel/vfs/samba/SMBReader.cpp:1409
+msgid "Remote filename encode select"
+msgstr ""
+
+#: panel/vfs/ftp/ftpreader.cpp:119
+msgid "Input ftp connect url (user:pswd@hostname/dir)"
+msgstr ""
+
+#: panel/vfs/ftp/ftpreader.cpp:143
+msgid "Ftp connect"
+msgstr ""
+
+#: panel/vfs/ftp/ftpreader.cpp:492
+#, c-format
+msgid "File access error (%s) !!!"
+msgstr ""
+
+#: panel/vfs/ftp/ftpreader.cpp:512
+msgid "ftp view file"
+msgstr ""
+
+#: panel/vfs/ftp/ftpreader.cpp:643 panel/vfs/ftp/ftpreader.cpp:1050
+msgid "Directory exists, continue?"
+msgstr ""
+
+#: panel/vfs/ftp/ftpreader.cpp:867 panel/vfs/dirreader.cpp:821
+msgid "Delete ?"
+msgstr ""
+
+#: panel/vfs/ftp/ftpreader.cpp:930
+#, c-format
+msgid "ftp file remove failure : %s : continue ? "
+msgstr ""
+
+#: panel/vfs/ftp/ftpreader.cpp:966
+#, c-format
+msgid "ftp dir remove failure %s : continue ?"
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:59
+#, c-format
+msgid "Samba Connect Input WorkGroup - [%s - %s]"
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:71
+#, c-format
+msgid "Samba Connect Input Username - [%s - %s] [%s]"
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:82
+#, c-format
+msgid "Samba Connect Input Passwd - [%s - %s] [%s %s] "
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:284
+msgid "Samba connect"
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:309
+#, c-format
+msgid "Could not open directory [smb:/%s] - %s"
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:826
+#, c-format
+msgid "Samba Directory exists, continue !!! [%s]"
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:975
+#, c-format
+msgid "File write access error (%s), continue? !!! "
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:1070
+msgid "samba delete file"
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:1073
+msgid "samba delete file ?"
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:1128
+#, c-format
+msgid "samba file remove failure : %s : continue ? "
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:1169
+#, c-format
+msgid "samba dir remove failure : %s : %s. continue ? "
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:1354
+#, c-format
+msgid "rename failure !!! [%s]"
+msgstr ""
+
+#: panel/vfs/samba/SMBReader.cpp:1378
+#, c-format
+msgid "mkdir failure !!! [%s]"
+msgstr ""
+
+#: panel/vfs/dirreader.cpp:565
+#, c-format
+msgid "file link copy failure : %s (%s) : %s. continue ? "
+msgstr ""
+
+#: panel/vfs/dirreader.cpp:683
+msgid "Calculating file sizes..."
+msgstr ""
+
+#: panel/vfs/dirreader.cpp:893
+#, c-format
+msgid "file remove failure : %s : %s. continue ? "
+msgstr ""
+
+#: panel/vfs/dirreader.cpp:899
+#, c-format
+msgid "link file remove failure : %s : %s. continue ? "
+msgstr ""
+
+#: panel/vfs/dirreader.cpp:935
+#, c-format
+msgid "dir remove failure : %s : %s. continue ? "
+msgstr ""
+
+#: editor/editor.cpp:258
+msgid "This document locale error. current file read only."
+msgstr ""
+
+#: editor/editor.cpp:301
+msgid "Code convert failure."
+msgstr ""
+
+#: editor/editor.cpp:785
+msgid "go to line number."
+msgstr ""
+
+#: editor/editor.cpp:792
+#, c-format
+msgid "not digit [%s"
+msgstr ""
+
+#: editor/editor.cpp:833
+msgid "Yes"
+msgstr ""
+
+#: editor/editor.cpp:834
+msgid "No"
+msgstr ""
+
+#: editor/editor.cpp:847
+msgid "Editor exit. Do you want to save ?"
+msgstr ""
+
+#: editor/editorexecute.cpp:642
+msgid "Read only file loaded."
+msgstr ""
+
+#: editor/editorexecute.cpp:649
+msgid "File New"
+msgstr ""
+
+#: editor/editorexecute.cpp:649
+msgid "New file. Do you want to save ?"
+msgstr ""
+
+#: editor/editorexecute.cpp:662
+msgid "current file using."
+msgstr ""
+
+#: editor/editorexecute.cpp:674
+msgid "This file read only."
+msgstr ""
+
+#: editor/editorexecute.cpp:706
+msgid "Current Encode"
+msgstr ""
+
+#: editor/editorexecute.cpp:710
+msgid "UNIX Mode"
+msgstr ""
+
+#: editor/editorexecute.cpp:712
+msgid "DOS Mode"
+msgstr ""
+
+#: editor/editorexecute.cpp:715
+msgid "Encoding convert."
+msgstr ""
+
+#: editor/editorexecute.cpp:747
+msgid "Find Text."
+msgstr ""
+
+#: editor/editorexecute.cpp:790 sh/keyset.cfg:354
+msgid "FindNext"
+msgstr ""
+
+#: editor/editorexecute.cpp:837 sh/keyset.cfg:355
+msgid "FindPrevious"
+msgstr ""
+
+#: editor/editorexecute.cpp:838
+msgid "First of document reached. Continue from the begining?"
+msgstr ""
+
+#: panel/vfs/ftp/ftpreader.h:110
+msgid "ftp file move fail !!!"
+msgstr ""
+
+#: sh/keyset.cfg:277
+msgid "Console View & Ftp Close"
+msgstr ""
+
+#: sh/keyset.cfg:282
+msgid "Editor"
+msgstr ""
+
+#: sh/keyset.cfg:283
+msgid "VIM"
+msgstr ""
+
+#: sh/keyset.cfg:286 sh/keyset.cfg:330
+msgid "Remove"
+msgstr ""
+
+#: sh/keyset.cfg:287 sh/keyset.cfg:339
+msgid "SizeInfo"
+msgstr ""
+
+#: sh/keyset.cfg:291
+msgid "File or Directory Select"
+msgstr ""
+
+#: sh/keyset.cfg:293 sh/keyset.cfg:333 sh/keyset.cfg:361
+msgid "Next Window"
+msgstr ""
+
+#: sh/keyset.cfg:294
+msgid "Window Split"
+msgstr ""
+
+#: sh/keyset.cfg:295
+msgid "Command Shell"
+msgstr ""
+
+#: sh/keyset.cfg:297
+msgid "Copy files into clipboard."
+msgstr ""
+
+#: sh/keyset.cfg:298
+msgid "Cut files into clipboard."
+msgstr ""
+
+#: sh/keyset.cfg:299
+msgid "Clipboard files current directory paste."
+msgstr ""
+
+#: sh/keyset.cfg:300
+msgid "Clipboard files view."
+msgstr ""
+
+#: sh/keyset.cfg:303
+msgid "Go back directory"
+msgstr ""
+
+#: sh/keyset.cfg:304
+msgid "Go forward directory"
+msgstr ""
+
+#: sh/keyset.cfg:306
+msgid "Editor new file"
+msgstr ""
+
+#: sh/keyset.cfg:307
+msgid "Touch file"
+msgstr ""
+
+#: sh/keyset.cfg:312
+msgid "Remote"
+msgstr ""
+
+#: sh/keyset.cfg:313
+msgid "Sync Directory"
+msgstr ""
+
+#: sh/keyset.cfg:314
+msgid "Console Mode (MC similar)"
+msgstr ""
+
+#: sh/keyset.cfg:317
+msgid "search subdirectory."
+msgstr ""
+
+#: sh/keyset.cfg:318
+msgid "all search directory."
+msgstr ""
+
+#: sh/keyset.cfg:319
+msgid "subdirectory tree screen clean."
+msgstr ""
+
+#: sh/keyset.cfg:321
+msgid "current directory into clipboard."
+msgstr ""
+
+#: sh/keyset.cfg:322
+msgid "cut current directory into clipboard."
+msgstr ""
+
+#: sh/keyset.cfg:323
+msgid "clipboard directory is current directory paste."
+msgstr ""
+
+#: sh/keyset.cfg:325
+msgid "ftp/sftp connect"
+msgstr ""
+
+#: sh/keyset.cfg:326
+msgid "connect close"
+msgstr ""
+
+#: sh/keyset.cfg:334 sh/keyset.cfg:362
+msgid "Split Window"
+msgstr ""
+
+#: sh/keyset.cfg:336
+msgid "All Scan"
+msgstr ""
+
+#: sh/keyset.cfg:337
+msgid "Scan"
+msgstr ""
+
+#: sh/keyset.cfg:338
+msgid "MountList"
+msgstr ""
+
+#: sh/keyset.cfg:344
+msgid "Indent(Tab)"
+msgstr ""
+
+#: sh/keyset.cfg:347
+msgid "Cut Clipboard"
+msgstr ""
+
+#: sh/keyset.cfg:348
+msgid "Copy Clipboard"
+msgstr ""
+
+#: sh/keyset.cfg:349
+msgid "Paste Clipboard"
+msgstr ""
+
+#: sh/keyset.cfg:350
+msgid "Indent Mode(On/Off)"
+msgstr ""
+
+#: sh/keyset.cfg:357
+msgid "LineView"
+msgstr ""
+
+#: sh/keyset.cfg:363
+msgid "BoxCode Change"
+msgstr ""
+
+#: sh/keyset.cfg:364
+msgid "Language change"
+msgstr ""
+
+#: sh/keyset.cfg:365
+msgid "New Document"
+msgstr ""
+
+#: sh/keyset.cfg:366
+msgid "Document Save"
+msgstr ""
+
+#: sh/keyset.cfg:367
+msgid "Document Save As"
+msgstr ""
+
+#: sh/keyset.cfg:368
+msgid "Vim editor"
+msgstr ""

@@ -1,0 +1,1802 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LinM-0.8\n"
+"Report-Msgid-Bugs-To: la9527@yahoo.co.kr\n"
+"POT-Creation-Date: 2008-01-01 02:05+0900\n"
+"PO-Revision-Date: 2007-12-31 01:12+0900\n"
+"Last-Translator: la9527@yahoo.co.kr\n"
+"Language-Team: la9527@yahoo.co.kr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/ncurses/dialog/dialogbox.cpp:12 src/ncurses/dialog/dialogbox.cpp:22
+#: src/ncurses/dialog/dialogbox.cpp:379 src/ncurses/dialog/dialogbox.cpp:658
+#: src/ncurses/dialog/dialogbox.cpp:751
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:30
+#: src/ncurses/dialog/dialog_config.cpp:19
+#: src/ncurses/dialog/dialog_replace.cpp:31 src/ncurses/cmd_panel_chown.cpp:55
+msgid "Ok"
+msgstr "확인"
+
+#: src/ncurses/dialog/dialogbox.cpp:86
+msgid "Yes(Y)"
+msgstr "예(Y)"
+
+#: src/ncurses/dialog/dialogbox.cpp:87
+msgid "No(N)"
+msgstr "아니오(N)"
+
+#: src/ncurses/dialog/dialogbox.cpp:380 src/ncurses/dialog/dialogbox.cpp:523
+#: src/ncurses/dialog/dialogbox.cpp:752
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:31
+#: src/ncurses/dialog/dialog_config.cpp:20
+#: src/ncurses/dialog/dialog_replace.cpp:32 src/ncurses/cmd_panel_chown.cpp:56
+#: src/ncurses/cmd_panel_imp.cpp:1518 src/ncurses/cmd_panel_imp.cpp:1532
+#: src/ncurses/cmd_panel_imp.cpp:1573 src/ncurses/ncurses_editor.cpp:499
+#: panel/common/panel.cpp:472 panel/vfs/libssh2/SFtpReader.cpp:947
+#: panel/vfs/libssh2/SFtpReader.cpp:1257 panel/vfs/ftp/ftpreader.cpp:700
+#: panel/vfs/ftp/ftpreader.cpp:1115 panel/vfs/ftp/ftpreader.cpp:1303
+#: panel/vfs/samba/SMBReader.cpp:581 panel/vfs/samba/SMBReader.cpp:888
+#: panel/vfs/dirreader.cpp:440 panel/vfs/dirreader.cpp:741
+#: editor/editor.cpp:845 editor/editorexecute.cpp:713
+msgid "Cancel"
+msgstr "취소"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:10
+msgid "Name"
+msgstr "이름"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:12
+msgid "SFTP"
+msgstr "SFTP"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:13
+msgid "FTP"
+msgstr "FTP"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:14
+msgid "SAMBA"
+msgstr "삼바"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:16
+msgid "Protocol"
+msgstr "프로토콜"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:17
+msgid "Address"
+msgstr "주소"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:18 src/ncurses/mlsmenu.cpp:72
+#: src/ncurses/mlsmenu.cpp:159
+msgid "Directory"
+msgstr "디렉토리"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:19
+msgid "Port"
+msgstr "포트"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:21
+msgid "UserName"
+msgstr "사용자명"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:22
+msgid "Password"
+msgstr "패스워드"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:24
+msgid "PublicKey"
+msgstr "공개키"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:25
+msgid "PrivateKey"
+msgstr "개인키"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:464
+msgid "Anonymous"
+msgstr "익명여부"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:633
+msgid "Insert"
+msgstr "추가"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:634
+msgid "Modify"
+msgstr "수정"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:635
+#: src/ncurses/mlsmenu.cpp:62 panel/vfs/ftp/ftpreader.cpp:863
+#: panel/vfs/dirreader.cpp:817
+msgid "Delete"
+msgstr "삭제"
+
+#: src/ncurses/dialog/dialog_remoteconnprops.cpp:636
+msgid "Close"
+msgstr "닫기"
+
+#: src/ncurses/dialog/dialog_config.cpp:17 src/ncurses/mlsmenu.cpp:133
+#: sh/keyset.cfg:341
+msgid "Configure"
+msgstr "설정"
+
+#: src/ncurses/dialog/dialog_replace.cpp:28 src/ncurses/mlsmenu.cpp:56
+#: src/ncurses/mlsmenu.cpp:240 src/ncurses/mlsmenu.cpp:241
+#: editor/editorcmd.cpp:111 editor/editorcmd.cpp:112 sh/keyset.cfg:353
+msgid "Find"
+msgstr "찾기"
+
+#: src/ncurses/dialog/dialog_replace.cpp:29 src/ncurses/ncurses_editor.cpp:440
+#: src/ncurses/ncurses_editor.cpp:496 src/ncurses/ncurses_editor.cpp:502
+#: src/ncurses/mlsmenu.cpp:246 sh/keyset.cfg:356
+msgid "Replace"
+msgstr "바꾸기"
+
+#: src/ncurses/mainframe.cpp:601
+msgid "configure command not found.."
+msgstr "설정을 발견할수 없습니다.."
+
+#: src/ncurses/mainframe.cpp:602
+#, c-format
+msgid "[%s]"
+msgstr "[%s]"
+
+#: src/ncurses/mainframe.cpp:603 src/ncurses/cmd_panel_chown.cpp:312
+#: src/ncurses/cmd_settingchg.cpp:83 src/ncurses/main_ncurces.cpp:435
+#: src/ncurses/main_ncurces.cpp:470 src/ncurses/cmd_editor_imp.cpp:226
+#: src/ncurses/cmd_panel_imp.cpp:430 src/ncurses/cmd_panel_imp.cpp:503
+#: src/ncurses/cmd_panel_imp.cpp:659 src/ncurses/cmd_panel_imp.cpp:680
+#: src/ncurses/cmd_panel_imp.cpp:707 src/ncurses/cmd_panel_imp.cpp:855
+#: src/ncurses/cmd_panel_imp.cpp:978 src/ncurses/cmd_panel_imp.cpp:1203
+#: src/ncurses/cmd_panel_imp.cpp:1218 src/ncurses/cmd_panel_imp.cpp:1232
+#: src/ncurses/cmd_panel_imp.cpp:1405 src/ncurses/cmd_panel_imp.cpp:1411
+#: src/ncurses/cmd_panel_imp.cpp:1683 src/ncurses/cmd_panel_imp.cpp:1805
+#: src/ncurses/cmd_panel_imp.cpp:1818 src/ncurses/cmd_panel_imp.cpp:1879
+#: src/ncurses/cmd_panel_imp.cpp:1923 src/ncurses/cmd_panel_imp.cpp:1942
+#: src/ncurses/cmd_panel_imp.cpp:1996 src/ncurses/cmd_panel_imp.cpp:2027
+#: src/ncurses/cmd_panel_imp.cpp:2122 src/ncurses/cmd_mcd_imp.cpp:271
+#: src/ncurses/cmd_mcd_imp.cpp:297 src/ncurses/cmd_mcd_imp.cpp:334
+#: src/ncurses/cmd_mcd_imp.cpp:480 src/ncurses/cmd_mcd_imp.cpp:578
+#: panel/common/panel.cpp:224 panel/common/panel.cpp:234
+#: panel/common/panel.cpp:248 panel/common/panel.cpp:257
+#: panel/common/panel.cpp:455 panel/common/panel.cpp:640
+#: panel/common/panel.cpp:925 panel/common/mcd.cpp:678
+#: panel/vfs/archive/arcreader.cpp:32 panel/vfs/archive/arcreader.cpp:183
+#: panel/vfs/archive/arcreader.cpp:217 panel/vfs/archive/arcreader.cpp:265
+#: panel/vfs/archive/arcreader.cpp:285 panel/vfs/archive/arcreader.cpp:322
+#: panel/vfs/archive/archive.cpp:1464 panel/vfs/archive/archive.cpp:1527
+#: panel/vfs/archive/archive.cpp:1547 panel/vfs/archive/archive.cpp:1630
+#: panel/vfs/archive/archive.cpp:1649 panel/vfs/archive/archive.cpp:1734
+#: panel/vfs/archive/archive.cpp:1753 panel/vfs/archive/archive.cpp:1835
+#: panel/vfs/libssh2/SFtpReader.cpp:380 panel/vfs/libssh2/SFtpReader.cpp:405
+#: panel/vfs/libssh2/SFtpReader.cpp:547 panel/vfs/libssh2/SFtpReader.cpp:694
+#: panel/vfs/libssh2/SFtpReader.cpp:719 panel/vfs/libssh2/SFtpReader.cpp:758
+#: panel/vfs/libssh2/SFtpReader.cpp:808 panel/vfs/libssh2/SFtpReader.cpp:841
+#: panel/vfs/libssh2/SFtpReader.cpp:921 panel/vfs/libssh2/SFtpReader.cpp:986
+#: panel/vfs/libssh2/SFtpReader.cpp:996 panel/vfs/libssh2/SFtpReader.cpp:1038
+#: panel/vfs/libssh2/SFtpReader.cpp:1061 panel/vfs/libssh2/SFtpReader.cpp:1093
+#: panel/vfs/libssh2/SFtpReader.cpp:1119 panel/vfs/libssh2/SFtpReader.cpp:1197
+#: panel/vfs/libssh2/SFtpReader.cpp:1225 panel/vfs/libssh2/SFtpReader.cpp:1299
+#: panel/vfs/libssh2/SFtpReader.cpp:1310 panel/vfs/libssh2/SFtpReader.cpp:1353
+#: panel/vfs/libssh2/SFtpReader.cpp:1393 panel/vfs/libssh2/SFtpReader.cpp:1424
+#: panel/vfs/libssh2/SFtpReader.cpp:1504 panel/vfs/libssh2/SFtpReader.cpp:1524
+#: panel/vfs/libssh2/SFtpReader.cpp:1545 panel/vfs/libssh2/SFtpReader.cpp:1601
+#: panel/vfs/libssh2/SFtpReader.cpp:1629 panel/vfs/libssh2/SFtpReader.cpp:1669
+#: panel/vfs/libssh2/SFtpReader.cpp:1689 panel/vfs/libssh2/SFtpReader.cpp:1712
+#: panel/vfs/ftp/ftpreader.cpp:150 panel/vfs/ftp/ftpreader.cpp:159
+#: panel/vfs/ftp/ftpreader.cpp:169 panel/vfs/ftp/ftpreader.cpp:285
+#: panel/vfs/ftp/ftpreader.cpp:301 panel/vfs/ftp/ftpreader.cpp:427
+#: panel/vfs/ftp/ftpreader.cpp:456 panel/vfs/ftp/ftpreader.cpp:496
+#: panel/vfs/ftp/ftpreader.cpp:502 panel/vfs/ftp/ftpreader.cpp:558
+#: panel/vfs/ftp/ftpreader.cpp:643 panel/vfs/ftp/ftpreader.cpp:650
+#: panel/vfs/ftp/ftpreader.cpp:667 panel/vfs/ftp/ftpreader.cpp:674
+#: panel/vfs/ftp/ftpreader.cpp:740 panel/vfs/ftp/ftpreader.cpp:750
+#: panel/vfs/ftp/ftpreader.cpp:827 panel/vfs/ftp/ftpreader.cpp:832
+#: panel/vfs/ftp/ftpreader.cpp:923 panel/vfs/ftp/ftpreader.cpp:931
+#: panel/vfs/ftp/ftpreader.cpp:959 panel/vfs/ftp/ftpreader.cpp:969
+#: panel/vfs/ftp/ftpreader.cpp:1045 panel/vfs/ftp/ftpreader.cpp:1050
+#: panel/vfs/ftp/ftpreader.cpp:1078 panel/vfs/ftp/ftpreader.cpp:1099
+#: panel/vfs/ftp/ftpreader.cpp:1156 panel/vfs/ftp/ftpreader.cpp:1166
+#: panel/vfs/ftp/ftpreader.cpp:1210 panel/vfs/ftp/ftpreader.cpp:1218
+#: panel/vfs/ftp/ftpreader.cpp:1242 panel/vfs/ftp/ftpreader.cpp:1269
+#: panel/vfs/samba/SMBReader.cpp:311 panel/vfs/samba/SMBReader.cpp:357
+#: panel/vfs/samba/SMBReader.cpp:555 panel/vfs/samba/SMBReader.cpp:620
+#: panel/vfs/samba/SMBReader.cpp:630 panel/vfs/samba/SMBReader.cpp:672
+#: panel/vfs/samba/SMBReader.cpp:692 panel/vfs/samba/SMBReader.cpp:724
+#: panel/vfs/samba/SMBReader.cpp:753 panel/vfs/samba/SMBReader.cpp:829
+#: panel/vfs/samba/SMBReader.cpp:857 panel/vfs/samba/SMBReader.cpp:927
+#: panel/vfs/samba/SMBReader.cpp:938 panel/vfs/samba/SMBReader.cpp:978
+#: panel/vfs/samba/SMBReader.cpp:1016 panel/vfs/samba/SMBReader.cpp:1049
+#: panel/vfs/samba/SMBReader.cpp:1131 panel/vfs/samba/SMBReader.cpp:1151
+#: panel/vfs/samba/SMBReader.cpp:1172 panel/vfs/samba/SMBReader.cpp:1228
+#: panel/vfs/samba/SMBReader.cpp:1253 panel/vfs/samba/SMBReader.cpp:1291
+#: panel/vfs/samba/SMBReader.cpp:1311 panel/vfs/samba/SMBReader.cpp:1356
+#: panel/vfs/samba/SMBReader.cpp:1380 panel/vfs/samba/SMBReader.cpp:1431
+#: panel/vfs/dirreader.cpp:193 panel/vfs/dirreader.cpp:200
+#: panel/vfs/dirreader.cpp:208 panel/vfs/dirreader.cpp:237
+#: panel/vfs/dirreader.cpp:252 panel/vfs/dirreader.cpp:262
+#: panel/vfs/dirreader.cpp:416 panel/vfs/dirreader.cpp:479
+#: panel/vfs/dirreader.cpp:490 panel/vfs/dirreader.cpp:532
+#: panel/vfs/dirreader.cpp:570 panel/vfs/dirreader.cpp:620
+#: panel/vfs/dirreader.cpp:725 panel/vfs/dirreader.cpp:905
+#: panel/vfs/dirreader.cpp:939 editor/editor.cpp:258 editor/editor.cpp:280
+#: editor/editor.cpp:301 editor/editor.cpp:352 editor/editor.cpp:360
+#: editor/editor.cpp:366 editor/editor.cpp:793 editor/editorexecute.cpp:642
+#: editor/editorexecute.cpp:662 editor/editorexecute.cpp:674
+#: panel/vfs/archive/arcreader.h:71 panel/vfs/archive/arcreader.h:77
+#: panel/vfs/ftp/ftpreader.h:110 panel/vfs/dirreader.h:66
+#: panel/vfs/dirreader.h:95 panel/vfs/dirreader.h:116
+msgid "Error"
+msgstr "에러"
+
+#: src/ncurses/mainframe.cpp:809 src/ncurses/mlsmenu.cpp:59
+#: src/ncurses/mlsmenu.cpp:224 panel/vfs/libssh2/SFtpReader.cpp:885
+#: panel/vfs/libssh2/SFtpReader.cpp:1166 panel/vfs/ftp/ftpreader.cpp:604
+#: panel/vfs/ftp/ftpreader.cpp:1013 panel/vfs/samba/SMBReader.cpp:519
+#: panel/vfs/samba/SMBReader.cpp:798 panel/vfs/dirreader.cpp:370
+#: editor/editorcmd.cpp:95
+msgid "Copy"
+msgstr "복사"
+
+#: src/ncurses/mainframe.cpp:809
+msgid "Do you really want to select files copy int next panel directory?"
+msgstr "선택 화일을 상대편 디렉토리에 복사하시겠습니까?"
+
+#: src/ncurses/mainframe.cpp:832 src/ncurses/mlsmenu.cpp:60
+#: panel/vfs/dirreader.cpp:681 sh/keyset.cfg:284 sh/keyset.cfg:331
+msgid "Move"
+msgstr "이동"
+
+#: src/ncurses/mainframe.cpp:832
+msgid "Do you really want to select files move into next panel directory?"
+msgstr "선택 화일을 상대편 디렉토리에 이동하시겠습니까?"
+
+#: src/ncurses/cmd_panel_chown.cpp:52
+msgid "[ Owner ]"
+msgstr "[ 소유자 ]"
+
+#: src/ncurses/cmd_panel_chown.cpp:53
+msgid "[ Group ]"
+msgstr "[ 그룹 ]"
+
+#: src/ncurses/cmd_panel_chown.cpp:312 src/ncurses/cmd_panel_imp.cpp:2027
+msgid "current connect mode or archive mode."
+msgstr "접속되었거나 압축모드면 실행할수 없습니다."
+
+#: src/ncurses/cmd_panel_chown.cpp:356 src/ncurses/cmd_panel_imp.cpp:263
+#: src/ncurses/cmd_panel_imp.cpp:1603 src/ncurses/cmd_panel_imp.cpp:1695
+msgid "Question"
+msgstr "물음"
+
+#: src/ncurses/cmd_panel_chown.cpp:356
+msgid "subdirectory files change ?"
+msgstr "하위디렉토리까지 변경하시겠습니까?"
+
+#: src/ncurses/cmd_panel_chown.cpp:387
+msgid "Chown command"
+msgstr "파일소유자권한변경"
+
+#: src/ncurses/cmd_panel_chown.cpp:420 src/ncurses/cmd_panel_imp.cpp:1771
+msgid "Error Info"
+msgstr "에러 정보"
+
+#: src/ncurses/cmd_panel_find.cpp:34
+msgid "input search filename."
+msgstr "찾을 파일명을 입력해주세요."
+
+#: src/ncurses/cmd_panel_find.cpp:39 src/ncurses/cmd_panel_imp.cpp:282
+#: src/ncurses/cmd_panel_imp.cpp:395 src/ncurses/cmd_panel_imp.cpp:470
+#: src/ncurses/cmd_panel_imp.cpp:1263 src/ncurses/cmd_panel_imp.cpp:1417
+#: src/ncurses/cmd_panel_imp.cpp:1434 src/ncurses/cmd_mcd_imp.cpp:28
+#: src/ncurses/cmd_mcd_imp.cpp:101 src/ncurses/cmd_mcd_imp.cpp:704
+#: src/ncurses/cmd_mcd_imp.cpp:716 src/ncurses/cmd_mcd_imp.cpp:741
+#: panel/common/mcd.cpp:652 panel/vfs/archive/arcreader.cpp:10
+#: panel/vfs/archive/arcreader.cpp:174 panel/vfs/archive/arcreader.cpp:203
+#: panel/vfs/archive/arcreader.cpp:275 panel/vfs/archive/arcreader.cpp:299
+msgid "Wait"
+msgstr "대기"
+
+#: src/ncurses/cmd_panel_find.cpp:40 src/ncurses/cmd_panel_imp.cpp:283
+#: src/ncurses/cmd_panel_imp.cpp:396 src/ncurses/cmd_panel_imp.cpp:471
+#: src/ncurses/cmd_panel_imp.cpp:1264 src/ncurses/cmd_panel_imp.cpp:1435
+#: src/ncurses/cmd_mcd_imp.cpp:29 src/ncurses/cmd_mcd_imp.cpp:705
+#: src/ncurses/cmd_mcd_imp.cpp:717 src/ncurses/cmd_mcd_imp.cpp:742
+#: panel/common/mcd.cpp:653
+msgid "Please wait !!! - Cancel Key [ESC]"
+msgstr "잠시만 기다려주세요 !!! - 취소 [ESC]"
+
+#: src/ncurses/cmd_panel_find.cpp:69 panel/vfs/libssh2/SFtpReader.cpp:1075
+#: panel/vfs/libssh2/SFtpReader.cpp:1369 panel/vfs/libssh2/SFtpReader.cpp:1566
+#: panel/vfs/libssh2/SFtpReader.cpp:1644 panel/vfs/ftp/ftpreader.cpp:528
+#: panel/vfs/ftp/ftpreader.cpp:792 panel/vfs/ftp/ftpreader.cpp:1228
+#: panel/vfs/samba/SMBReader.cpp:706 panel/vfs/samba/SMBReader.cpp:992
+#: panel/vfs/samba/SMBReader.cpp:1193 panel/vfs/samba/SMBReader.cpp:1268
+#: panel/vfs/dirreader.cpp:400 panel/vfs/dirreader.cpp:593
+msgid "Warning"
+msgstr "경고"
+
+#: src/ncurses/cmd_panel_find.cpp:69
+msgid "File Not Found."
+msgstr "파일을 찾지 못했습니다."
+
+#: src/ncurses/cmd_panel_find.cpp:77
+#, c-format
+msgid "Find List - %d"
+msgstr "찾은 파일 리스트 - %d"
+
+#: src/ncurses/cmd_settingchg.cpp:11
+msgid "file sort (0:none,1:name,2:ext,3:size.3:time,5:color)"
+msgstr "파일정렬 (0:없음,1:이름,2:확장자,3:사이즈,4:시간,5:색)"
+
+#: src/ncurses/cmd_settingchg.cpp:14
+msgid "max column size ( 0:Auto, 1~6 )"
+msgstr "최대 컬럼 (0:자동, 1~6)"
+
+#: src/ncurses/cmd_settingchg.cpp:17
+msgid "directory first sort"
+msgstr "디렉토리를 처음으로 정렬"
+
+#: src/ncurses/cmd_settingchg.cpp:20
+msgid "choice file execute"
+msgstr "파일실행시 선택"
+
+#: src/ncurses/cmd_settingchg.cpp:23
+msgid "hidden file view"
+msgstr "숨김 파일 보기"
+
+#: src/ncurses/cmd_settingchg.cpp:26
+msgid "hint view"
+msgstr "힌트 보기"
+
+#: src/ncurses/cmd_settingchg.cpp:29
+msgid "always screen redraw"
+msgstr "항상 화면 다시그리기"
+
+#: src/ncurses/cmd_settingchg.cpp:32
+msgid "default use LinM editor."
+msgstr "내부 에디터 기본사용"
+
+#: src/ncurses/cmd_settingchg.cpp:35
+msgid "external editor program"
+msgstr "외부 에디터 프로그램"
+
+#: src/ncurses/cmd_settingchg.cpp:38
+msgid "LinM editor tab width"
+msgstr "에디터 탭 사이즈"
+
+#: src/ncurses/cmd_settingchg.cpp:41
+msgid "LinM editor backup on save"
+msgstr "에디터 백업저장"
+
+#: src/ncurses/cmd_settingchg.cpp:44
+msgid "LinM editor line number view"
+msgstr "에디터 라인 번호 보기"
+
+#: src/ncurses/cmd_settingchg.cpp:47
+msgid "line code change '-,+'"
+msgstr "라인코드 '-,+'로 변경"
+
+#: src/ncurses/cmd_settingchg.cpp:50
+msgid "diff program"
+msgstr "diff 프로그램"
+
+#: src/ncurses/cmd_settingchg.cpp:83
+msgid "is invalid."
+msgstr "가 잘못 입력 되었습니다."
+
+#: src/ncurses/main_ncurces.cpp:436
+msgid "configuration files are not compatible. configuration files copy ?"
+msgstr "설정파일이 없습니다. 설정파일을 복사하겠습니까?"
+
+#: src/ncurses/main_ncurces.cpp:470
+msgid "LinM is already running on this terminal. LinM is return key [ Ctrl+O ]"
+msgstr ""
+"LinM 이 이미 실행되고 있습니다. LinM 으로 돌아가려면 [ Ctrl+O ] 를 누르세요."
+
+#: src/ncurses/cmd_editor_imp.cpp:226
+msgid "NewFile is local use only."
+msgstr "새로운파일 생성은 로칼에서만 사용가능합니다."
+
+#: src/ncurses/cmd_editor_imp.cpp:290
+msgid "Vim View"
+msgstr "Vim 편집"
+
+#: src/ncurses/cmd_editor_imp.cpp:290
+msgid "Do you wan't vi editor ?"
+msgstr "VI 에디터로 편집하시겠습니까?"
+
+#: src/ncurses/cmd_common_imp.cpp:37 src/ncurses/mlsmenu.cpp:32
+#: src/ncurses/mlsmenu.cpp:153 src/ncurses/mlsmenu.cpp:282
+#: editor/editorcmd.cpp:130
+msgid "About"
+msgstr "정보"
+
+#: src/ncurses/cmd_common_imp.cpp:48
+msgid "LinM Key List"
+msgstr "LinM 키 정보"
+
+#: src/ncurses/cmd_common_imp.cpp:52
+msgid "File Panel Key List"
+msgstr "LinM 파일보기 키 정보"
+
+#: src/ncurses/cmd_common_imp.cpp:78
+msgid "LinM Change Directory Key List"
+msgstr "LinM MCD 키 리스트"
+
+#: src/ncurses/cmd_common_imp.cpp:101
+msgid "Simple Editor Key List"
+msgstr "에디터 키 리스트"
+
+#: src/ncurses/cmd_common_imp.cpp:126
+msgid "LinM Function Key List"
+msgstr "LinM 기능키 리스트"
+
+#: src/ncurses/cmd_common_imp.cpp:130
+msgid "File Panel Function Key List"
+msgstr "LinM 파일보기 기능키 리스트"
+
+#: src/ncurses/cmd_common_imp.cpp:146
+msgid "LinM Change Directory Function Key List"
+msgstr "LinM MCD 기능키 리스트"
+
+#: src/ncurses/cmd_common_imp.cpp:161
+msgid "Simple Editor Function Key List"
+msgstr "에디터 기능키 리스트"
+
+#: src/ncurses/cmd_common_imp.cpp:176 src/ncurses/mainframe_view.cpp:141
+#: src/ncurses/mlsmenu.cpp:33 src/ncurses/mlsmenu.cpp:154
+#: src/ncurses/mlsmenu.cpp:281 src/ncurses/mlsmenu.cpp:284
+#: editor/editorcmd.cpp:129 editor/editorcmd.cpp:132 sh/keyset.cfg:275
+msgid "Help"
+msgstr "도움말"
+
+#: src/ncurses/cmd_panel_imp.cpp:66
+msgid "Press any key to return LinM..."
+msgstr "아무 키를 누르면 LinM 으로 복귀합니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:260
+msgid "Edit Parameter"
+msgstr "파라미터 편집"
+
+#: src/ncurses/cmd_panel_imp.cpp:263
+msgid "Do you want to run this operation?"
+msgstr "정말로 실행하시겠습니까?"
+
+#: src/ncurses/cmd_panel_imp.cpp:430
+msgid "Don't directory edit."
+msgstr "디렉토리는 편집할 수 없습니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:503
+msgid "File loading failure."
+msgstr "파일을 읽을수 없습니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:623 sh/keyset.cfg:292
+msgid "LinM Quit"
+msgstr "LinM 종료"
+
+#: src/ncurses/cmd_panel_imp.cpp:623
+msgid "Do you really want to quit the LinM ?"
+msgstr "정말로 LinM을 종료하겠습니까?"
+
+#: src/ncurses/cmd_panel_imp.cpp:680 src/ncurses/cmd_panel_imp.cpp:1805
+#: src/ncurses/cmd_mcd_imp.cpp:271
+msgid "current remote connected."
+msgstr "현재 접속되어 있습니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:688
+msgid "Input sftp,ftp,smb connect url (ex. sftp://user:pswd@hostname)"
+msgstr ""
+"sftp,ftp,smb 접속 URL 을 입력해 주세요. (ex. sftp://user:pswd@hostname)"
+
+#: src/ncurses/cmd_panel_imp.cpp:707 src/ncurses/cmd_panel_imp.cpp:1996
+#: src/ncurses/cmd_mcd_imp.cpp:297
+msgid "input url invalid format."
+msgstr "URL 입력 형식이 잘못되었습니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:726 src/ncurses/cmd_mcd_imp.cpp:315
+msgid "Remote Close"
+msgstr "접속 종료"
+
+#: src/ncurses/cmd_panel_imp.cpp:726 src/ncurses/cmd_mcd_imp.cpp:315
+msgid "Do you really want to remote connection close ?"
+msgstr "접속을 정말로 종료하겠습니까?"
+
+#: src/ncurses/cmd_panel_imp.cpp:855 src/ncurses/cmd_panel_imp.cpp:978
+#: src/ncurses/cmd_mcd_imp.cpp:480 src/ncurses/cmd_mcd_imp.cpp:578
+#: panel/common/panel.cpp:224 panel/common/panel.cpp:248
+msgid "plugin not found."
+msgstr "플러그인을 발견할 수 없습니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:1203 src/ncurses/cmd_panel_imp.cpp:1218
+#: src/ncurses/cmd_panel_imp.cpp:1232
+msgid "Don't execute remote connect or archive file view."
+msgstr "접속되었거나 압축파일이면 실행할수 없습니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:1271 src/ncurses/cmd_mcd_imp.cpp:749
+#, c-format
+msgid "  Selected files     %10s  /  %10s byte  "
+msgstr "  선택 파일들        %10s  /  %10s 바이트  "
+
+#: src/ncurses/cmd_panel_imp.cpp:1275 src/ncurses/cmd_mcd_imp.cpp:753
+#: src/ncurses/mlsmenu.cpp:66
+msgid "Size info"
+msgstr "사이즈정보"
+
+#: src/ncurses/cmd_panel_imp.cpp:1376
+msgid "Input name of the compressed file. [filename]"
+msgstr "압축 확장자를 뺀 파일명을 입력해주세요. [파일명]"
+
+#: src/ncurses/cmd_panel_imp.cpp:1405
+msgid "input file used."
+msgstr "입력파일이 사용중입니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:1415
+msgid "Please wait !!! - Compress file ["
+msgstr "기다려 주세요 !!! - 압축 파일 ["
+
+#: src/ncurses/cmd_panel_imp.cpp:1449
+#, c-format
+msgid "Selected files     %10s  /  %10s byte  "
+msgstr "선택된 파일들      %10s  /  %10s 바이트  "
+
+#: src/ncurses/cmd_panel_imp.cpp:1486
+msgid "Clipboard View"
+msgstr "클립보드 데이터보기"
+
+#: src/ncurses/cmd_panel_imp.cpp:1503
+msgid "Compress the select files."
+msgstr "선택된 파일 압축"
+
+#: src/ncurses/cmd_panel_imp.cpp:1529
+msgid "Current file install."
+msgstr "현재 파일 인스톨."
+
+#: src/ncurses/cmd_panel_imp.cpp:1571
+msgid "Install"
+msgstr "인스톨"
+
+#: src/ncurses/cmd_panel_imp.cpp:1572
+msgid "Install Nodeps"
+msgstr "강제 인스톨(nodeps)"
+
+#: src/ncurses/cmd_panel_imp.cpp:1600
+msgid "Do you want install current file ?"
+msgstr "현재파일을 인스톨 하시겠습니까?"
+
+#: src/ncurses/cmd_panel_imp.cpp:1683
+msgid "chmod local file system only."
+msgstr "파일권한 변경은 로칼에서만 가능합니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:1695
+msgid "subdirectory files permision change ?"
+msgstr "하위디렉토리까지 파일권한을 변경하겠습니까?"
+
+#: src/ncurses/cmd_panel_imp.cpp:1723
+msgid "set user ID on execution"
+msgstr "실행을 위한 사용자 ID 설정"
+
+#: src/ncurses/cmd_panel_imp.cpp:1724
+msgid "set group ID on execution"
+msgstr "실행을 위한 그룹 ID 설정"
+
+#: src/ncurses/cmd_panel_imp.cpp:1725
+msgid "sticky bit"
+msgstr "스티키비트"
+
+#: src/ncurses/cmd_panel_imp.cpp:1727
+msgid "read by owner"
+msgstr "소유자 읽기"
+
+#: src/ncurses/cmd_panel_imp.cpp:1728
+msgid "write by owner"
+msgstr "소유자 쓰기"
+
+#: src/ncurses/cmd_panel_imp.cpp:1729
+msgid "execute/search by owner"
+msgstr "소유자 실행/검색"
+
+#: src/ncurses/cmd_panel_imp.cpp:1731
+msgid "read by group"
+msgstr "그룹 읽기"
+
+#: src/ncurses/cmd_panel_imp.cpp:1732
+msgid "write by group"
+msgstr "그룹 쓰기"
+
+#: src/ncurses/cmd_panel_imp.cpp:1733
+msgid "execute/search by group"
+msgstr "그룹 실행/검색"
+
+#: src/ncurses/cmd_panel_imp.cpp:1735
+msgid "read by other"
+msgstr "기타 읽기"
+
+#: src/ncurses/cmd_panel_imp.cpp:1736
+msgid "write by other"
+msgstr "기타 쓰기"
+
+#: src/ncurses/cmd_panel_imp.cpp:1737
+msgid "execute/search by other"
+msgstr "기타 실행/검색"
+
+#: src/ncurses/cmd_panel_imp.cpp:1741
+msgid "Chmod selected files"
+msgstr "선택된 파일 권한 변경"
+
+#: src/ncurses/cmd_panel_imp.cpp:1818
+msgid "Terminal size is too small."
+msgstr "터미널 사이즈가 작습니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:1842
+msgid "Remote Connect Properties"
+msgstr "원격 접속 설정"
+
+#: src/ncurses/cmd_panel_imp.cpp:1865
+msgid "Remote Connect Insert"
+msgstr "원격 접속 추가"
+
+#: src/ncurses/cmd_panel_imp.cpp:1879 src/ncurses/cmd_panel_imp.cpp:1923
+msgid "Connection Name Overlapping."
+msgstr "기존 이름을 덮어썼습니다."
+
+#: src/ncurses/cmd_panel_imp.cpp:1908
+msgid "Remote Connect Modify"
+msgstr "원격 접속 수정"
+
+#: src/ncurses/cmd_panel_imp.cpp:1940
+#, c-format
+msgid "Do you really remove connection infomation? - %s"
+msgstr "접속정보를 정말로 삭제 하시겠습니까? - %s"
+
+#: src/ncurses/cmd_panel_imp.cpp:2122
+msgid "this system can't console mode."
+msgstr "현재 시스템에서 콘솔모드를 지원하지 못합니다."
+
+#: src/ncurses/ncurses_editor.cpp:383
+msgid "[Ins]"
+msgstr "[삽입]"
+
+#: src/ncurses/ncurses_editor.cpp:385
+msgid "[Ovr]"
+msgstr "[수정]"
+
+#: src/ncurses/ncurses_editor.cpp:388
+msgid "[Select]"
+msgstr "[선택]"
+
+#: src/ncurses/ncurses_editor.cpp:416
+msgid "[Read Only]"
+msgstr "[읽기전용]"
+
+#: src/ncurses/ncurses_editor.cpp:423
+msgid "[Change]"
+msgstr "[변경됨]"
+
+#: src/ncurses/ncurses_editor.cpp:497
+msgid "Replace All"
+msgstr "전체바꾸기"
+
+#: src/ncurses/ncurses_editor.cpp:498 panel/vfs/libssh2/SFtpReader.cpp:943
+#: panel/vfs/libssh2/SFtpReader.cpp:1253 panel/vfs/ftp/ftpreader.cpp:696
+#: panel/vfs/ftp/ftpreader.cpp:1111 panel/vfs/samba/SMBReader.cpp:577
+#: panel/vfs/samba/SMBReader.cpp:884 panel/vfs/dirreader.cpp:436
+#: panel/vfs/dirreader.cpp:739
+msgid "Skip"
+msgstr "넘기기"
+
+#: src/ncurses/ncurses_editor.cpp:557
+msgid "Replace Next"
+msgstr "다음바꾸기"
+
+#: src/ncurses/ncurses_editor.cpp:558 editor/editorexecute.cpp:791
+msgid "End of document reached. Continue from the begining?"
+msgstr "마지막까지 찾았습니다. 다시 찾겠습니까?"
+
+#: src/ncurses/mainframe_view.cpp:135 src/ncurses/mlsmenu.cpp:217
+#: editor/editorcmd.cpp:88
+msgid "Quit"
+msgstr "종료"
+
+#: src/ncurses/mainframe_view.cpp:136 sh/keyset.cfg:276
+msgid "Menu"
+msgstr "메뉴"
+
+#: src/ncurses/mainframe_view.cpp:137 src/ncurses/mlsmenu.cpp:126
+#: src/ncurses/mlsmenu.cpp:189 src/ncurses/mlsmenu.cpp:252
+msgid "Split"
+msgstr "화면분할"
+
+#: src/ncurses/mainframe_view.cpp:138
+msgid "Shell"
+msgstr "쉘 명령"
+
+#: src/ncurses/mainframe_view.cpp:139 sh/keyset.cfg:288
+msgid "MCD"
+msgstr "MCD"
+
+#: src/ncurses/mainframe_view.cpp:140 sh/keyset.cfg:289
+msgid "QCD"
+msgstr "QCD"
+
+#: src/ncurses/mainframe_view.cpp:146 src/ncurses/mainframe_view.cpp:165
+#: src/ncurses/mlsmenu.cpp:53 src/ncurses/mlsmenu.cpp:167
+msgid "ClipCopy"
+msgstr "클립복사"
+
+#: src/ncurses/mainframe_view.cpp:147 src/ncurses/mainframe_view.cpp:166
+#: src/ncurses/mlsmenu.cpp:52 src/ncurses/mlsmenu.cpp:166
+msgid "ClipCut"
+msgstr "클립자르기"
+
+#: src/ncurses/mainframe_view.cpp:148 src/ncurses/mainframe_view.cpp:167
+#: src/ncurses/mlsmenu.cpp:54 src/ncurses/mlsmenu.cpp:168
+msgid "ClipPaste"
+msgstr "붙여넣기"
+
+#: src/ncurses/mainframe_view.cpp:149 sh/keyset.cfg:352
+msgid "Select"
+msgstr "선택"
+
+#: src/ncurses/mainframe_view.cpp:151
+msgid "RemoteConnect"
+msgstr "원격 접속"
+
+#: src/ncurses/mainframe_view.cpp:156
+msgid "SubDirOneSearch"
+msgstr "하위폴더검색"
+
+#: src/ncurses/mainframe_view.cpp:158
+msgid "SubDirAllSearch"
+msgstr "전체하위폴더검색"
+
+#: src/ncurses/mainframe_view.cpp:160
+msgid "SubDirClear"
+msgstr "하위폴더화면삭제"
+
+#: src/ncurses/mainframe_view.cpp:168
+msgid "SelectMode"
+msgstr "선택모드"
+
+#: src/ncurses/mainframe_view.cpp:195
+msgid "Hint: "
+msgstr "힌트: "
+
+#: src/ncurses/mainframe_view.cpp:217
+msgid "Select the directory where you want to extract these files."
+msgstr "압축 풀 디렉토리를 선택해 주세요."
+
+#: src/ncurses/mainframe_view.cpp:225
+msgid "Select the directory where you want to copy these files."
+msgstr "복사할 디렉토리를 선택해 주세요."
+
+#: src/ncurses/mainframe_view.cpp:230
+msgid "Select the directory where you want to move these files."
+msgstr "이동할 디렉토리를 선택해 주세요."
+
+#: src/ncurses/mainframe_view.cpp:263 src/ncurses/mlsmenu.cpp:48
+#: src/ncurses/mlsmenu.cpp:211 editor/editorcmd.cpp:82
+msgid "File"
+msgstr "파일"
+
+#: src/ncurses/mainframe_view.cpp:264
+msgid "Dir"
+msgstr "디렉토리"
+
+#: src/ncurses/mainframe_view.cpp:265
+msgid "Byte"
+msgstr "바이트"
+
+#: src/ncurses/mainframe_view.cpp:269
+msgid " Selected ("
+msgstr " 선택 ("
+
+#: src/ncurses/mainframe_view.cpp:270
+msgid "Bytes)       "
+msgstr "바이트)      "
+
+#: src/ncurses/cmd_mcd_imp.cpp:100
+msgid "Please wait !!! - Uncompress file ["
+msgstr "잠시만 기다려 주세요 !!! - 압축 풀 파일 ["
+
+#: src/ncurses/cmd_mcd_imp.cpp:276
+msgid "Input sftp(ftp) connect url (sftp://user:pswd@hostname)"
+msgstr "sftp(ftp) 접속 URL을 입력하십시오. (sftp://user:passwd@hostname)"
+
+#: src/ncurses/cmd_mcd_imp.cpp:334
+msgid "remove not root directory. !!!"
+msgstr "루트 디렉토리는 삭제할수 없습니다. !!!"
+
+#: src/ncurses/cmd_mcd_imp.cpp:700
+msgid "All Rescan"
+msgstr "전체 검색"
+
+#: src/ncurses/cmd_mcd_imp.cpp:701
+msgid "Do you really want to directory all rescan ?"
+msgstr "전체 디렉토릴 재검색하겠습니까?"
+
+#: src/ncurses/mlsmenu.cpp:35
+msgid "Quit LinM"
+msgstr "LinM 종료"
+
+#: src/ncurses/mlsmenu.cpp:38 src/ncurses/mlsmenu.cpp:39
+#: panel/common/panel.cpp:466
+msgid "Run"
+msgstr "실행"
+
+#: src/ncurses/mlsmenu.cpp:40
+msgid "Run(select)"
+msgstr "실행(선택)"
+
+#: src/ncurses/mlsmenu.cpp:42
+msgid "Console Mode"
+msgstr "콘솔모드"
+
+#: src/ncurses/mlsmenu.cpp:43
+msgid "Shell command"
+msgstr "쉘 명령"
+
+#: src/ncurses/mlsmenu.cpp:45
+msgid "View console"
+msgstr "콘솔보기"
+
+#: src/ncurses/mlsmenu.cpp:49 src/ncurses/mlsmenu.cpp:212
+#: editor/editorcmd.cpp:83
+msgid "New"
+msgstr "새로운파일"
+
+#: src/ncurses/mlsmenu.cpp:50
+msgid "Touch File"
+msgstr "공파일생성"
+
+#: src/ncurses/mlsmenu.cpp:57 sh/keyset.cfg:310
+msgid "Diff"
+msgstr "파일비교"
+
+#: src/ncurses/mlsmenu.cpp:61 src/ncurses/mlsmenu.cpp:161
+#: panel/vfs/libssh2/SFtpReader.cpp:785 panel/vfs/libssh2/SFtpReader.cpp:944
+#: panel/vfs/libssh2/SFtpReader.cpp:978 panel/vfs/libssh2/SFtpReader.cpp:1254
+#: panel/vfs/libssh2/SFtpReader.cpp:1286 panel/vfs/ftp/ftpreader.cpp:413
+#: panel/vfs/ftp/ftpreader.cpp:697 panel/vfs/ftp/ftpreader.cpp:732
+#: panel/vfs/ftp/ftpreader.cpp:1112 panel/vfs/ftp/ftpreader.cpp:1145
+#: panel/vfs/samba/SMBReader.cpp:578 panel/vfs/samba/SMBReader.cpp:612
+#: panel/vfs/samba/SMBReader.cpp:885 panel/vfs/samba/SMBReader.cpp:917
+#: panel/vfs/samba/SMBReader.cpp:1340 panel/vfs/dirreader.cpp:437
+#: panel/vfs/dirreader.cpp:471 panel/vfs/dirreader.h:85 sh/keyset.cfg:281
+#: sh/keyset.cfg:329
+msgid "Rename"
+msgstr "이름수정"
+
+#: src/ncurses/mlsmenu.cpp:63 sh/keyset.cfg:308
+msgid "Chmod"
+msgstr "파일권한변경"
+
+#: src/ncurses/mlsmenu.cpp:64 sh/keyset.cfg:309
+msgid "Chown"
+msgstr "소유권한변경"
+
+#: src/ncurses/mlsmenu.cpp:68
+msgid "Select all"
+msgstr "전체선택"
+
+#: src/ncurses/mlsmenu.cpp:69
+msgid "Invert select"
+msgstr "선택반전"
+
+#: src/ncurses/mlsmenu.cpp:76 src/ncurses/mlsmenu.cpp:163 sh/keyset.cfg:301
+msgid "Mount List"
+msgstr "마운트리스트"
+
+#: src/ncurses/mlsmenu.cpp:77
+msgid "SyncDir"
+msgstr "디렉토리동기화"
+
+#: src/ncurses/mlsmenu.cpp:79 src/ncurses/mlsmenu.cpp:160 sh/keyset.cfg:285
+#: sh/keyset.cfg:328
+msgid "Mkdir"
+msgstr "디렉토리생성"
+
+#: src/ncurses/mlsmenu.cpp:80 src/ncurses/mlsmenu.cpp:170
+msgid "To parent"
+msgstr "부모디렉토리"
+
+#: src/ncurses/mlsmenu.cpp:81 src/ncurses/mlsmenu.cpp:171
+msgid "To root"
+msgstr "루트디렉토리"
+
+#: src/ncurses/mlsmenu.cpp:82 src/ncurses/mlsmenu.cpp:172
+msgid "To home"
+msgstr "홈디렉토리"
+
+#: src/ncurses/mlsmenu.cpp:84
+msgid "Back"
+msgstr "뒤로"
+
+#: src/ncurses/mlsmenu.cpp:85
+msgid "Forward"
+msgstr "앞으로"
+
+#: src/ncurses/mlsmenu.cpp:90 src/ncurses/mlsmenu.cpp:175
+msgid "Util"
+msgstr "유틸리티"
+
+#: src/ncurses/mlsmenu.cpp:91
+msgid "Remote Connect"
+msgstr "원격 접속"
+
+#: src/ncurses/mlsmenu.cpp:92 src/ncurses/mlsmenu.cpp:176
+msgid "Quick Connect"
+msgstr "빠른 접속"
+
+#: src/ncurses/mlsmenu.cpp:93 src/ncurses/mlsmenu.cpp:177
+msgid "Disconnect"
+msgstr "접속종료"
+
+#: src/ncurses/mlsmenu.cpp:95
+msgid "Extract"
+msgstr "압축메뉴"
+
+#: src/ncurses/mlsmenu.cpp:97
+msgid "Compress (tar.gz)"
+msgstr "압축 (tar.gz)"
+
+#: src/ncurses/mlsmenu.cpp:98
+msgid "Compress (tar.bz2)"
+msgstr "압축 (tar.gz2)"
+
+#: src/ncurses/mlsmenu.cpp:99
+msgid "Compress (zip)"
+msgstr "압축 (zip)"
+
+#: src/ncurses/mlsmenu.cpp:102 src/ncurses/mlsmenu.cpp:180
+#: src/ncurses/mlsmenu.cpp:249 editor/editorcmd.cpp:118
+msgid "View"
+msgstr "보기"
+
+#: src/ncurses/mlsmenu.cpp:103 src/ncurses/mlsmenu.cpp:181
+#: src/ncurses/mlsmenu.cpp:250 editor/editorcmd.cpp:119 sh/keyset.cfg:278
+msgid "Refresh"
+msgstr "새로고침"
+
+#: src/ncurses/mlsmenu.cpp:105
+msgid "Column AUTO"
+msgstr "컬럼 자동"
+
+#: src/ncurses/mlsmenu.cpp:107
+msgid "Column 1"
+msgstr "컬럼 1"
+
+#: src/ncurses/mlsmenu.cpp:108
+msgid "Column 2"
+msgstr "컬럼 2"
+
+#: src/ncurses/mlsmenu.cpp:109
+msgid "Column 3"
+msgstr "컬럼 3"
+
+#: src/ncurses/mlsmenu.cpp:110
+msgid "Column 4"
+msgstr "컬럼 4"
+
+#: src/ncurses/mlsmenu.cpp:112
+msgid "ViewClip"
+msgstr "클립파일보기"
+
+#: src/ncurses/mlsmenu.cpp:115 src/ncurses/mlsmenu.cpp:184
+msgid "Hide hidden file"
+msgstr "숨긴파일숨기기"
+
+#: src/ncurses/mlsmenu.cpp:117 src/ncurses/mlsmenu.cpp:186
+msgid "Show hidden file"
+msgstr "숨긴파일보기"
+
+#: src/ncurses/mlsmenu.cpp:120
+msgid "Hide owner"
+msgstr "소유자 숨기기"
+
+#: src/ncurses/mlsmenu.cpp:122
+msgid "Show owner"
+msgstr "소유자 보기"
+
+#: src/ncurses/mlsmenu.cpp:124 src/ncurses/mlsmenu.cpp:187
+msgid "Sort Change"
+msgstr "소트변경"
+
+#: src/ncurses/mlsmenu.cpp:127 src/ncurses/mlsmenu.cpp:190
+#: src/ncurses/mlsmenu.cpp:253
+msgid "Next window"
+msgstr "다음화면"
+
+#: src/ncurses/mlsmenu.cpp:129 src/ncurses/mlsmenu.cpp:192
+msgid "SplitSync On/Off"
+msgstr "동기화 켜기끄기"
+
+#: src/ncurses/mlsmenu.cpp:132 src/ncurses/mlsmenu.cpp:196
+#: src/ncurses/mlsmenu.cpp:265
+msgid "Option"
+msgstr "옵션"
+
+#: src/ncurses/mlsmenu.cpp:135 src/ncurses/mlsmenu.cpp:197
+#: src/ncurses/mlsmenu.cpp:266
+msgid "Linecode Change"
+msgstr "라인코드바꾸기"
+
+#: src/ncurses/mlsmenu.cpp:136
+msgid "Locale Change"
+msgstr "영문모드"
+
+#: src/ncurses/mlsmenu.cpp:138
+msgid "Edit Config"
+msgstr "설정편집"
+
+#: src/ncurses/mlsmenu.cpp:139
+msgid "Edit Keybind"
+msgstr "키코드편집"
+
+#: src/ncurses/mlsmenu.cpp:140
+msgid "Edit Colorset"
+msgstr "색편집"
+
+#: src/ncurses/mlsmenu.cpp:156
+msgid "Quit Mcd"
+msgstr "Mcd 종료"
+
+#: src/ncurses/mlsmenu.cpp:164
+msgid "Size Info"
+msgstr "사이즈정보"
+
+#: src/ncurses/mlsmenu.cpp:199 src/ncurses/mlsmenu.cpp:267
+msgid "Korean Mode"
+msgstr "영문모드"
+
+#: src/ncurses/mlsmenu.cpp:214 editor/editorcmd.cpp:85
+msgid "Save"
+msgstr "저장"
+
+#: src/ncurses/mlsmenu.cpp:215 editor/editorcmd.cpp:86
+msgid "Save As"
+msgstr "새로저장"
+
+#: src/ncurses/mlsmenu.cpp:220 panel/common/panel.cpp:468
+#: editor/editorcmd.cpp:91
+msgid "Edit"
+msgstr "편집"
+
+#: src/ncurses/mlsmenu.cpp:221 editor/editorcmd.cpp:92 sh/keyset.cfg:346
+msgid "Undo"
+msgstr "실행취소"
+
+#: src/ncurses/mlsmenu.cpp:223 editor/editorcmd.cpp:94
+msgid "Cut"
+msgstr "자르기"
+
+#: src/ncurses/mlsmenu.cpp:225 editor/editorcmd.cpp:96
+msgid "Paste"
+msgstr "붙여넣기"
+
+#: src/ncurses/mlsmenu.cpp:227 editor/editorcmd.cpp:98
+msgid "Indent"
+msgstr "들여쓰기"
+
+#: src/ncurses/mlsmenu.cpp:228 editor/editorcmd.cpp:99 sh/keyset.cfg:345
+msgid "Unindent"
+msgstr "들여쓰기제거"
+
+#: src/ncurses/mlsmenu.cpp:231 editor/editorcmd.cpp:102
+msgid "Indent Off"
+msgstr "들여쓰기모드"
+
+#: src/ncurses/mlsmenu.cpp:233 editor/editorcmd.cpp:104
+msgid "Indent On"
+msgstr "들여쓰기켜기"
+
+#: src/ncurses/mlsmenu.cpp:235 editor/editorcmd.cpp:106 sh/keyset.cfg:351
+msgid "Select All"
+msgstr "전체선택"
+
+#: src/ncurses/mlsmenu.cpp:237 editor/editorcmd.cpp:108
+msgid "Select Mode"
+msgstr "선택모드"
+
+#: src/ncurses/mlsmenu.cpp:243 editor/editorcmd.cpp:114
+msgid "Find Next"
+msgstr "다음찾기"
+
+#: src/ncurses/mlsmenu.cpp:244 editor/editorcmd.cpp:115
+msgid "Find Previous"
+msgstr "이전찾기"
+
+#: src/ncurses/mlsmenu.cpp:255 editor/editorcmd.cpp:121
+msgid "Show line numbers"
+msgstr "라인번호보기"
+
+#: src/ncurses/mlsmenu.cpp:257 editor/editorcmd.cpp:123 sh/keyset.cfg:358
+msgid "Goto Line"
+msgstr "라인이동"
+
+#: src/ncurses/mlsmenu.cpp:259 editor/editorcmd.cpp:125 sh/keyset.cfg:359
+msgid "Goto First"
+msgstr "처음으로"
+
+#: src/ncurses/mlsmenu.cpp:260 editor/editorcmd.cpp:126 sh/keyset.cfg:360
+msgid "Goto End"
+msgstr "마지막으로"
+
+#: src/ncurses/mlsmenu.cpp:262
+msgid "Vim Editor"
+msgstr "Vim 에디터"
+
+#: src/ncurses/mlsmenu.cpp:273
+msgid "Mouse Mode On"
+msgstr "마우스 켜기"
+
+#: src/ncurses/mlsmenu.cpp:275 src/ncurses/mlsmenu.cpp:278
+msgid "Mouse Mode Off"
+msgstr "마우스 끄기"
+
+#: panel/common/panel.cpp:234 panel/common/panel.cpp:257
+msgid "remote disconnected."
+msgstr "접속 종료."
+
+#: panel/common/panel.cpp:455 panel/common/panel.cpp:640
+msgid "configure file parsing error !!! "
+msgstr "로칼 파일 읽기 실패 !!!"
+
+#: panel/common/panel.cpp:467
+msgid "Run(root)"
+msgstr "루트실행"
+
+#: panel/common/panel.cpp:469
+msgid "ExtEditor"
+msgstr "외부편집"
+
+#: panel/common/panel.cpp:470
+msgid "Parameter"
+msgstr "파라미터"
+
+#: panel/common/panel.cpp:471
+msgid "Parameter(root)"
+msgstr "파라미터(루트)"
+
+#: panel/common/panel.cpp:474 panel/common/panel.cpp:650
+msgid "Execute select"
+msgstr "실행 선택"
+
+#: panel/common/panel.cpp:516
+msgid "Input parameter."
+msgstr "입력 파라미터."
+
+#: panel/common/panel.cpp:925 panel/common/mcd.cpp:678
+msgid "mounted list local system use only."
+msgstr "마운트 리스트는 로칼시스템에서만 가능합니다."
+
+#: panel/common/panel.cpp:958 panel/common/mcd.cpp:711
+msgid "go to the mounted directory."
+msgstr "마운트된 디렉토리로 이동."
+
+#: panel/vfs/archive/arcreader.cpp:11 panel/vfs/archive/arcreader.cpp:175
+#: panel/vfs/archive/arcreader.cpp:204 panel/vfs/archive/arcreader.cpp:276
+#: panel/vfs/archive/arcreader.cpp:300
+msgid "Please wait !!! - Cancel Key [Ctrl+C]"
+msgstr "기다려주세요 !!! - 취소 키 [Ctrl+C]"
+
+#: panel/vfs/archive/arcreader.cpp:183 panel/vfs/archive/arcreader.cpp:217
+#: panel/vfs/archive/arcreader.cpp:285 panel/vfs/archive/arcreader.cpp:322
+msgid "Uncompress failure !!!"
+msgstr "압축 풀기 실패 !!!"
+
+#: panel/vfs/archive/arcreader.cpp:265
+msgid "Compress move failure !!!"
+msgstr "압축파일은 상태에서는 이동이 불가능합니다."
+
+#: panel/vfs/archive/archive.cpp:96
+msgid "File open error !!!"
+msgstr "파일 읽기 실패 !!!"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:238
+msgid "Input sftp connect url (user:passwd@hostname/dir)"
+msgstr "접속할 SFtp URL을 입력하세요 (user:passwd@hostname/dir)"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:259 panel/vfs/libssh2/SFtpReader.cpp:328
+msgid "SFtp connect"
+msgstr "SFtp 접속"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:259 panel/vfs/libssh2/SFtpReader.cpp:328
+#: panel/vfs/ftp/ftpreader.cpp:143 panel/vfs/samba/SMBReader.cpp:284
+msgid "Please wait !!!"
+msgstr "기다려 주세요 !!!"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:282
+msgid "RSA key Finger info"
+msgstr "RSA 키 손검증 정보"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:336
+msgid "Authentication by password failed."
+msgstr "패스워드가 맞지 않습니다."
+
+#: panel/vfs/libssh2/SFtpReader.cpp:366
+msgid "Unable to open a sftp session."
+msgstr "sftp 세션을 열수 없습니다."
+
+#: panel/vfs/libssh2/SFtpReader.cpp:380
+msgid "get current dir reading failure !!!"
+msgstr "현재 디렉토리 읽기 실패"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:717 panel/vfs/libssh2/SFtpReader.cpp:756
+msgid "sftp file reading failure."
+msgstr "파일을 읽을수 없습니다."
+
+#: panel/vfs/libssh2/SFtpReader.cpp:806
+#, c-format
+msgid "SFtp rename failure !!! [%s]"
+msgstr "압축파일은 상태에서는 이동이 불가능합니다. [%s]"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:827 panel/vfs/ftp/ftpreader.cpp:445
+#: panel/vfs/samba/SMBReader.cpp:1367 panel/vfs/dirreader.h:107
+msgid "Make Directory"
+msgstr "디렉토리 생성"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:839
+#, c-format
+msgid "SFtp mkdir failure !!! [%s]"
+msgstr "디렉토리 생성 실패 !!! [%s]"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:885 panel/vfs/libssh2/SFtpReader.cpp:1166
+#: panel/vfs/ftp/ftpreader.cpp:604 panel/vfs/ftp/ftpreader.cpp:1013
+#: panel/vfs/samba/SMBReader.cpp:519 panel/vfs/samba/SMBReader.cpp:798
+#: panel/vfs/dirreader.cpp:370 panel/vfs/dirreader.cpp:681
+msgid "To "
+msgstr "To "
+
+#: panel/vfs/libssh2/SFtpReader.cpp:918 panel/vfs/libssh2/SFtpReader.cpp:1058
+#: panel/vfs/samba/SMBReader.cpp:552 panel/vfs/samba/SMBReader.cpp:689
+#, c-format
+msgid "File access error (%s), continue? !!! "
+msgstr "파일 읽기 불가 (%s), 계속하시겠습니까? !!!"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:942 panel/vfs/libssh2/SFtpReader.cpp:1252
+#: panel/vfs/ftp/ftpreader.cpp:695 panel/vfs/ftp/ftpreader.cpp:1110
+#: panel/vfs/samba/SMBReader.cpp:576 panel/vfs/samba/SMBReader.cpp:883
+#: panel/vfs/dirreader.cpp:435 panel/vfs/dirreader.cpp:738
+msgid "Overwrite"
+msgstr "덮어쓰기"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:945 panel/vfs/libssh2/SFtpReader.cpp:1255
+#: panel/vfs/ftp/ftpreader.cpp:698 panel/vfs/ftp/ftpreader.cpp:1113
+#: panel/vfs/samba/SMBReader.cpp:579 panel/vfs/samba/SMBReader.cpp:886
+#: panel/vfs/dirreader.cpp:438 panel/vfs/dirreader.cpp:740
+msgid "Overwrite All"
+msgstr "전체덮어쓰기"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:946 panel/vfs/libssh2/SFtpReader.cpp:1256
+#: panel/vfs/ftp/ftpreader.cpp:699 panel/vfs/ftp/ftpreader.cpp:1114
+#: panel/vfs/samba/SMBReader.cpp:580 panel/vfs/samba/SMBReader.cpp:887
+#: panel/vfs/dirreader.cpp:439
+msgid "Skip All"
+msgstr "전체넘기기"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:951 panel/vfs/libssh2/SFtpReader.cpp:1261
+#: panel/vfs/ftp/ftpreader.cpp:705 panel/vfs/ftp/ftpreader.cpp:1120
+#: panel/vfs/samba/SMBReader.cpp:585 panel/vfs/samba/SMBReader.cpp:892
+#: panel/vfs/dirreader.cpp:444 panel/vfs/dirreader.cpp:743
+msgid "File exists : "
+msgstr "파일이 있습니다 : "
+
+#: panel/vfs/libssh2/SFtpReader.cpp:986 panel/vfs/libssh2/SFtpReader.cpp:1299
+#: panel/vfs/ftp/ftpreader.cpp:740 panel/vfs/samba/SMBReader.cpp:620
+#: panel/vfs/samba/SMBReader.cpp:927 panel/vfs/dirreader.cpp:479
+msgid "File exists"
+msgstr "파일이 있습니다"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:996 panel/vfs/libssh2/SFtpReader.cpp:1310
+#: panel/vfs/ftp/ftpreader.cpp:750 panel/vfs/ftp/ftpreader.cpp:1166
+#: panel/vfs/samba/SMBReader.cpp:630 panel/vfs/samba/SMBReader.cpp:938
+#: panel/vfs/dirreader.cpp:490
+msgid "Directory can't rename."
+msgstr "디렉토리 이름 수정 실패"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1038 panel/vfs/ftp/ftpreader.cpp:650
+#: panel/vfs/samba/SMBReader.cpp:672 panel/vfs/dirreader.cpp:532
+msgid "Directory Making error"
+msgstr "디렉토리 생성에 실패하였습니다."
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1075 panel/vfs/libssh2/SFtpReader.cpp:1369
+#: panel/vfs/libssh2/SFtpReader.cpp:1644 panel/vfs/ftp/ftpreader.cpp:528
+#: panel/vfs/ftp/ftpreader.cpp:792 panel/vfs/ftp/ftpreader.cpp:1228
+#: panel/vfs/samba/SMBReader.cpp:706 panel/vfs/samba/SMBReader.cpp:992
+#: panel/vfs/samba/SMBReader.cpp:1268 panel/vfs/dirreader.cpp:400
+#: panel/vfs/dirreader.cpp:593
+msgid "Do you want to stop copy operation?"
+msgstr "복사를 중지하겠습니까?"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1090 panel/vfs/samba/SMBReader.cpp:721
+#, c-format
+msgid "remote file access error (%s), continue? !!! "
+msgstr "파일 읽기 불가 (%s), 계속하시겠습니까? !!!"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1119 panel/vfs/ftp/ftpreader.cpp:832
+#: panel/vfs/samba/SMBReader.cpp:753
+msgid "local file access error, continue?"
+msgstr "로칼 원본파일을 읽을수 없습니다. 계속하시겠습니까?"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1194
+#, c-format
+msgid "SFtp Directory exists, continue !!! [%s]"
+msgstr "디렉토리가 존재합니다. 계속하시겠습니까? !!! [%s]"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1223 panel/vfs/ftp/ftpreader.cpp:1076
+#: panel/vfs/samba/SMBReader.cpp:855 panel/vfs/dirreader.cpp:415
+#, c-format
+msgid "Source is not found : %s"
+msgstr "소스가 없습니다. : %s"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1391 panel/vfs/ftp/ftpreader.cpp:1242
+#: panel/vfs/samba/SMBReader.cpp:1014
+msgid "file writing failure. continue?"
+msgstr "파일을 쓸수가 없습니다. 계속하시겠습니까?"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1424 panel/vfs/ftp/ftpreader.cpp:1269
+#: panel/vfs/samba/SMBReader.cpp:1049 panel/vfs/dirreader.cpp:620
+msgid "File access error, continue?"
+msgstr "파일을 읽을수 없습니다. 계속하시겠습니까?"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1443
+msgid "sftp delete file"
+msgstr "sftp 파일 삭제"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1446 panel/vfs/ftp/ftpreader.cpp:867
+#: panel/vfs/samba/SMBReader.cpp:1073 panel/vfs/dirreader.cpp:821
+msgid "Info"
+msgstr "정보"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1446
+msgid "sftp delete file ?"
+msgstr "sftp 파일을 삭제하시겠습니까?"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1448 panel/vfs/ftp/ftpreader.cpp:869
+#: panel/vfs/samba/SMBReader.cpp:1075 panel/vfs/dirreader.cpp:823
+msgid "Counting files..."
+msgstr "파일개수를 계산중.."
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1501
+#, c-format
+msgid "sftp file remove failure : %s : continue ? "
+msgstr "ftp 파일 삭제 실패 : %s : 계속하시겠습니까? "
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1524 panel/vfs/libssh2/SFtpReader.cpp:1566
+#: panel/vfs/samba/SMBReader.cpp:1151 panel/vfs/samba/SMBReader.cpp:1193
+msgid "Do you want to stop remove operation?"
+msgstr "정말 파일을 삭제 하시겠습니까?"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1542
+#, c-format
+msgid "sftp dir remove failure : %s : %s. continue ? "
+msgstr "sftp 디렉토리 삭제 실패 : %s : %s. 계속하시겠습니까 ? "
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1599 panel/vfs/libssh2/SFtpReader.cpp:1626
+#: panel/vfs/libssh2/SFtpReader.cpp:1710 panel/vfs/ftp/ftpreader.cpp:673
+#: panel/vfs/ftp/ftpreader.cpp:1216 panel/vfs/samba/SMBReader.cpp:1226
+#: panel/vfs/samba/SMBReader.cpp:1250 panel/vfs/samba/SMBReader.cpp:1429
+#, c-format
+msgid "File access error (%s), continue? !!!"
+msgstr "파일 읽기 불가 (%s), 계속하시겠습니까? !!!"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1613 panel/vfs/samba/SMBReader.cpp:1240
+msgid "sftp view file"
+msgstr "sftp 파일 보기"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1664 panel/vfs/samba/SMBReader.cpp:1286
+#, c-format
+msgid "File access error (%s). !!!"
+msgstr "파일 접근 실패 (%s). !!!"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1689 panel/vfs/ftp/ftpreader.cpp:558
+#: panel/vfs/samba/SMBReader.cpp:1311
+msgid "local file access error !!!"
+msgstr "로칼 파일 읽기 실패 !!!"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1737 panel/vfs/ftp/ftpreader.cpp:1300
+#: panel/vfs/samba/SMBReader.cpp:1405
+msgid "LocalEncode"
+msgstr "로칼 인코딩"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1738 panel/vfs/ftp/ftpreader.cpp:1301
+#: panel/vfs/samba/SMBReader.cpp:1406 editor/editorexecute.cpp:707
+msgid "EUC-KR"
+msgstr "EUC-KR"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1739 panel/vfs/ftp/ftpreader.cpp:1302
+#: panel/vfs/samba/SMBReader.cpp:1407 editor/editorexecute.cpp:708
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: panel/vfs/libssh2/SFtpReader.cpp:1741 panel/vfs/ftp/ftpreader.cpp:1305
+#: panel/vfs/samba/SMBReader.cpp:1409
+msgid "Remote filename encode select"
+msgstr "원격 파일 인코딩 선택"
+
+#: panel/vfs/ftp/ftpreader.cpp:119
+msgid "Input ftp connect url (user:pswd@hostname/dir)"
+msgstr "ftp 접속 url (user:pswd@hostname/dir)"
+
+#: panel/vfs/ftp/ftpreader.cpp:143
+msgid "Ftp connect"
+msgstr "Ftp 접속"
+
+#: panel/vfs/ftp/ftpreader.cpp:492
+#, c-format
+msgid "File access error (%s) !!!"
+msgstr "파일 읽기 불가 (%s), 계속하시겠습니까? !!!"
+
+#: panel/vfs/ftp/ftpreader.cpp:512
+msgid "ftp view file"
+msgstr "ftp 파일 보기"
+
+#: panel/vfs/ftp/ftpreader.cpp:643 panel/vfs/ftp/ftpreader.cpp:1050
+msgid "Directory exists, continue?"
+msgstr "디렉토리가 존재합니다. 계속하시겠습니까?"
+
+#: panel/vfs/ftp/ftpreader.cpp:867 panel/vfs/dirreader.cpp:821
+msgid "Delete ?"
+msgstr "정말로 삭제합니까?"
+
+#: panel/vfs/ftp/ftpreader.cpp:930
+#, c-format
+msgid "ftp file remove failure : %s : continue ? "
+msgstr "ftp 파일 삭제 실패 : %s : 계속하시겠습니까? "
+
+#: panel/vfs/ftp/ftpreader.cpp:966
+#, c-format
+msgid "ftp dir remove failure %s : continue ?"
+msgstr "ftp 디렉토리 삭제 실패 %s : 계속 하시겠습니까?"
+
+#: panel/vfs/samba/SMBReader.cpp:59
+#, c-format
+msgid "Samba Connect Input WorkGroup - [%s - %s]"
+msgstr "삼바 접속 워크그룹을 입력하세요 - [%s - %s]"
+
+#: panel/vfs/samba/SMBReader.cpp:71
+#, c-format
+msgid "Samba Connect Input Username - [%s - %s] [%s]"
+msgstr "삼바 접속 사용자명을 입력하셍요. - [%s - %s] [%s]"
+
+#: panel/vfs/samba/SMBReader.cpp:82
+#, c-format
+msgid "Samba Connect Input Passwd - [%s - %s] [%s %s] "
+msgstr "삼바 접속 패스워드를 입력하세요. - [%s - %s] [%s %s] "
+
+#: panel/vfs/samba/SMBReader.cpp:284
+msgid "Samba connect"
+msgstr "삼바 접속"
+
+#: panel/vfs/samba/SMBReader.cpp:309
+#, c-format
+msgid "Could not open directory [smb:/%s] - %s"
+msgstr "디렉토리 접근 실패 [smb:/%s] - %s"
+
+#: panel/vfs/samba/SMBReader.cpp:826
+#, c-format
+msgid "Samba Directory exists, continue !!! [%s]"
+msgstr "디렉토리가 존재합니다. 계속하시겠습니까? [%s]"
+
+#: panel/vfs/samba/SMBReader.cpp:975
+#, c-format
+msgid "File write access error (%s), continue? !!! "
+msgstr "파일 쓰기 실패 (%s), 계속 하시겠습니까? !!! "
+
+#: panel/vfs/samba/SMBReader.cpp:1070
+msgid "samba delete file"
+msgstr "파일 삭제"
+
+#: panel/vfs/samba/SMBReader.cpp:1073
+msgid "samba delete file ?"
+msgstr "파일을 삭제 하겠습니까?"
+
+#: panel/vfs/samba/SMBReader.cpp:1128
+#, c-format
+msgid "samba file remove failure : %s : continue ? "
+msgstr "파일 삭제 실패 : %s : 계속 하겠습니까?"
+
+#: panel/vfs/samba/SMBReader.cpp:1169
+#, c-format
+msgid "samba dir remove failure : %s : %s. continue ? "
+msgstr "파일 삭제 실패 : %s : %s. 계속 하겠습니까?"
+
+#: panel/vfs/samba/SMBReader.cpp:1354
+#, c-format
+msgid "rename failure !!! [%s]"
+msgstr "파일이름 수정 실패 !!! [%s]"
+
+#: panel/vfs/samba/SMBReader.cpp:1378
+#, c-format
+msgid "mkdir failure !!! [%s]"
+msgstr "디렉토리 생성 실패 !!! [%s]"
+
+#: panel/vfs/dirreader.cpp:565
+#, c-format
+msgid "file link copy failure : %s (%s) : %s. continue ? "
+msgstr "파일 링크 복사 실패 : %s (%s) : %s. 계속 하시겠습니까?"
+
+#: panel/vfs/dirreader.cpp:683
+msgid "Calculating file sizes..."
+msgstr "파일 개수 계산중..."
+
+#: panel/vfs/dirreader.cpp:893
+#, c-format
+msgid "file remove failure : %s : %s. continue ? "
+msgstr "파일 삭제 실패 : %s : %s. 계속하시겠습니까 ? "
+
+#: panel/vfs/dirreader.cpp:899
+#, c-format
+msgid "link file remove failure : %s : %s. continue ? "
+msgstr "링크 파일 삭제 실패 : %s : %s : 계속 하시겠습니까?"
+
+#: panel/vfs/dirreader.cpp:935
+#, c-format
+msgid "dir remove failure : %s : %s. continue ? "
+msgstr "디렉토리 삭제 실패 : %s : %s. 계속하시겠습니까?"
+
+#: editor/editor.cpp:258
+msgid "This document locale error. current file read only."
+msgstr "파일 읽기 실패. 로케일 에러. 읽기 전용으로 읽습니다."
+
+#: editor/editor.cpp:301
+msgid "Code convert failure."
+msgstr "코드 변경에 실패하였습니다."
+
+#: editor/editor.cpp:785
+msgid "go to line number."
+msgstr "라인이동"
+
+#: editor/editor.cpp:792
+#, c-format
+msgid "not digit [%s"
+msgstr "숫자가 아닙니다. [%s"
+
+#: editor/editor.cpp:833
+msgid "Yes"
+msgstr "예"
+
+#: editor/editor.cpp:834
+msgid "No"
+msgstr "아니오"
+
+#: editor/editor.cpp:847
+msgid "Editor exit. Do you want to save ?"
+msgstr "에디터 종료. 저장하시겠습니까?"
+
+#: editor/editorexecute.cpp:642
+msgid "Read only file loaded."
+msgstr "읽기 전용으로 로드됨."
+
+#: editor/editorexecute.cpp:649
+msgid "File New"
+msgstr "새로운파일"
+
+#: editor/editorexecute.cpp:649
+msgid "New file. Do you want to save ?"
+msgstr "새로운 파일을 선택하였습니다. 기존파일을 저장하시겠습니까?"
+
+#: editor/editorexecute.cpp:662
+msgid "current file using."
+msgstr "파일을 사용하고 있습니다."
+
+#: editor/editorexecute.cpp:674
+msgid "This file read only."
+msgstr "현재파일은 읽기전용입니다."
+
+#: editor/editorexecute.cpp:706
+msgid "Current Encode"
+msgstr "현재 인코딩"
+
+#: editor/editorexecute.cpp:710
+msgid "UNIX Mode"
+msgstr "UNIX 모드"
+
+#: editor/editorexecute.cpp:712
+msgid "DOS Mode"
+msgstr "DOS 모드"
+
+#: editor/editorexecute.cpp:715
+msgid "Encoding convert."
+msgstr "인코딩 바꿈"
+
+#: editor/editorexecute.cpp:747
+msgid "Find Text."
+msgstr "다음 문자열"
+
+#: editor/editorexecute.cpp:790 sh/keyset.cfg:354
+msgid "FindNext"
+msgstr "다음찾기"
+
+#: editor/editorexecute.cpp:837 sh/keyset.cfg:355
+msgid "FindPrevious"
+msgstr "이전찾기"
+
+#: editor/editorexecute.cpp:838
+msgid "First of document reached. Continue from the begining?"
+msgstr "처음까지 찾았습니다. 다시 찾겠습니까?"
+
+#: panel/vfs/ftp/ftpreader.h:110
+msgid "ftp file move fail !!!"
+msgstr "ftp 파일 이동은 할 수 없습니다 !!!"
+
+#: sh/keyset.cfg:277
+msgid "Console View & Ftp Close"
+msgstr "콘솔 보기 & Ftp 접속 종료"
+
+#: sh/keyset.cfg:282
+msgid "Editor"
+msgstr "편집"
+
+#: sh/keyset.cfg:283
+msgid "VIM"
+msgstr "VIM"
+
+#: sh/keyset.cfg:286 sh/keyset.cfg:330
+msgid "Remove"
+msgstr "삭제"
+
+#: sh/keyset.cfg:287 sh/keyset.cfg:339
+msgid "SizeInfo"
+msgstr "사이즈정보"
+
+#: sh/keyset.cfg:291
+msgid "File or Directory Select"
+msgstr "파일이나 디렉토리 선택"
+
+#: sh/keyset.cfg:293 sh/keyset.cfg:333 sh/keyset.cfg:361
+msgid "Next Window"
+msgstr "다음화면"
+
+#: sh/keyset.cfg:294
+msgid "Window Split"
+msgstr "화면분할"
+
+#: sh/keyset.cfg:295
+msgid "Command Shell"
+msgstr "쉘 명령"
+
+#: sh/keyset.cfg:297
+msgid "Copy files into clipboard."
+msgstr "클립보드로 파일 복사"
+
+#: sh/keyset.cfg:298
+msgid "Cut files into clipboard."
+msgstr "클립 보드 파일 자르기"
+
+#: sh/keyset.cfg:299
+msgid "Clipboard files current directory paste."
+msgstr "현재 디렉토리에 파일 복사 및 이동."
+
+#: sh/keyset.cfg:300
+msgid "Clipboard files view."
+msgstr "클립보드 데이터보기"
+
+#: sh/keyset.cfg:303
+msgid "Go back directory"
+msgstr "이전 디렉토리로 이동"
+
+#: sh/keyset.cfg:304
+msgid "Go forward directory"
+msgstr "앞 디렉토리로 이동"
+
+#: sh/keyset.cfg:306
+msgid "Editor new file"
+msgstr "새로운 파일 편집"
+
+#: sh/keyset.cfg:307
+msgid "Touch file"
+msgstr "공파일생성"
+
+#: sh/keyset.cfg:312
+msgid "Remote"
+msgstr "원격접속"
+
+#: sh/keyset.cfg:313
+msgid "Sync Directory"
+msgstr "상대편 디렉토리와 같게 변경"
+
+#: sh/keyset.cfg:314
+msgid "Console Mode (MC similar)"
+msgstr "콘솔모드 (MC와 비슷한 형태)"
+
+#: sh/keyset.cfg:317
+msgid "search subdirectory."
+msgstr "하위 디렉토리 검색"
+
+#: sh/keyset.cfg:318
+msgid "all search directory."
+msgstr "전체 디렉토리 검색"
+
+#: sh/keyset.cfg:319
+msgid "subdirectory tree screen clean."
+msgstr "하위 디렉토리 트리 지움"
+
+#: sh/keyset.cfg:321
+msgid "current directory into clipboard."
+msgstr "현재디렉토리 클립보드 복사"
+
+#: sh/keyset.cfg:322
+msgid "cut current directory into clipboard."
+msgstr "현재디렉토리 클립보드 복사"
+
+#: sh/keyset.cfg:323
+msgid "clipboard directory is current directory paste."
+msgstr "클립보드 정보를 복사 및 이동"
+
+#: sh/keyset.cfg:325
+msgid "ftp/sftp connect"
+msgstr "ftp/sftp/samba 접속"
+
+#: sh/keyset.cfg:326
+msgid "connect close"
+msgstr "접속종료"
+
+#: sh/keyset.cfg:334 sh/keyset.cfg:362
+msgid "Split Window"
+msgstr "다음화면"
+
+#: sh/keyset.cfg:336
+msgid "All Scan"
+msgstr "전체 검색"
+
+#: sh/keyset.cfg:337
+msgid "Scan"
+msgstr "검색"
+
+#: sh/keyset.cfg:338
+msgid "MountList"
+msgstr "마운트리스트"
+
+#: sh/keyset.cfg:344
+msgid "Indent(Tab)"
+msgstr "들여쓰기"
+
+#: sh/keyset.cfg:347
+msgid "Cut Clipboard"
+msgstr "클립자르기"
+
+#: sh/keyset.cfg:348
+msgid "Copy Clipboard"
+msgstr "클립복사"
+
+#: sh/keyset.cfg:349
+msgid "Paste Clipboard"
+msgstr "클립붙여넣기"
+
+#: sh/keyset.cfg:350
+msgid "Indent Mode(On/Off)"
+msgstr "들여쓰기모드(켜기/끄기)"
+
+#: sh/keyset.cfg:357
+msgid "LineView"
+msgstr "라인보기"
+
+#: sh/keyset.cfg:363
+msgid "BoxCode Change"
+msgstr "라인코드바꾸기"
+
+#: sh/keyset.cfg:364
+msgid "Language change"
+msgstr "라인코드바꾸기"
+
+#: sh/keyset.cfg:365
+msgid "New Document"
+msgstr "새로운 파일 편집"
+
+#: sh/keyset.cfg:366
+msgid "Document Save"
+msgstr "편집된 파일 저장"
+
+#: sh/keyset.cfg:367
+msgid "Document Save As"
+msgstr "새로저장"
+
+#: sh/keyset.cfg:368
+msgid "Vim editor"
+msgstr "Vim 에디터"

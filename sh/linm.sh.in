@@ -1,0 +1,17 @@
+# install configuration files if not exist
+
+MLS_PWD_FILE="${HOME}/.linm/path"
+
+@bindir@/linm $1
+
+if test -r "$MLS_PWD_FILE"; then
+	MLS_PWD="`cat $MLS_PWD_FILE`"
+#	echo $MLS_PWD
+
+	if test -n "$MLS_PWD" && test -d "$MLS_PWD"; then
+		cd "$MLS_PWD"
+	fi
+	unset MLS_PWD
+fi
+
+unset MLS_PWD_FILE
