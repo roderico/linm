@@ -1,0 +1,230 @@
+  LinM é um clone do Mdir, o famoso gerenciador de arquivos da era MS-DOS.
+  LinM herdou os atalhos de teclado e o layout de tela do Mdir 
+  para ser mais amigável aos usuários. 
+  
+  Para reportar bugs, comentários e perguntas, por favor envie um email para
+  @yahoo.com.br or @gmail.com
+
+* Guia de instalação
+
+   Requirementos do sistema:
+   
+    * ncurses (http://ftp.gnu.org/pub/gnu/ncurses/) (ver 5.3 ou superior)
+	  (http://www.gnu.org/software/ncurses/ncurses.html)	
+	  
+    * openssl (http://www.openssl.org) (ver 0.9.6 ou superior)
+   
+    * samba (http://www.samba.org) (ver 3.0.0 ou superior)
+      
+   Nota: Linm tentará linkar ncursesw primeiro, e, se falhar, ncurses em seguida.
+         ncursesw é para codificação utf-8. 
+
+    # ./configure -prefix=PATH
+    # ./make install
+
+    Para o shell retornar após você fechar o LinM, 
+    você precisará re-logar após a instalação.
+       
+    Para mais opções ao ./configure, 
+
+    # ./configure --help 
+       
+      --prefix=PATH         : Muda o diretório de instalação 
+                              para PATH (/usr/local por padrão)
+      --enable-tarname=FILE : Especifica o sufixo do arquivo tar
+                              (Linm pode reconhecer entre *.tar ou *.gtar por padrão.)
+      --disable-pthread     : Contrói sem suporte a pthread.      
+      --enable-debug        : Habilita suporte para debuggers. 
+      --enable-allstatic    : Constrói Linm como um build estaticamente linkado, 
+                              o qual pode rodar sem bibliotecas externas.
+      --with-openssl=DIR    : Procurar por OpenSSL no diretório DIR.
+      --with-libz=PATH      : Procurar por libz no diretório PATH.
+      --disable-sftp        : Constrói sem a biblioteca sftp.
+      --disable-samba       : Constrói sem a biblioteca samba client. 
+      --with-ncurses-prefix : prefixo da biblioteca ncurses.
+                                         
+* Arquivos instalados:
+  	  
+   1) default.cfg, coloset.cfg, keyset.cfg
+      
+      Linm configuration files. 
+      Em: /etc/linm se instalado pelo root; senão, em: $HOME/.linm.
+         
+   2) linm.sh, linm_aliase.sh   	
+          
+      Executável LinM e shell scripts para mover 
+      para o último diretório visitado até a saída do programa. 
+      
+* Teclas de atalho:
+
+	Linm)
+		/       : Shell
+		ESC     : Mostra a tela de comando
+	
+		|       : Vai para o diretório "home".
+		\       : Vai para o diretório raíz (root).
+		BS      : Vai para o diretório acima.
+		
+		Alt+Q   : Histórico Anterior
+		Alt+W   : Próximo Histórico
+		Alt+C   : Copia arquivo (usando MCD)
+		Alt+D   : Deleta arquivo
+		Alt+K   : Cria diretório
+		Alt+R   : Renomeia
+		Alt+V   : Ver arquivo
+		Alt+S   : Ordena
+		Alt+Z   : Lista arquivos ocultos
+		Alt+O	: Mostra o proprietário.
+
+		Alt+L   : Toggle the line type
+		Alt+H   : Muda o modo do arquivo (Chmod)		
+		Alt+X, 
+		Ctrl+Q  : Fecha LinM
+		
+		Ctrl+A  : Seleciona todos
+		Ctrl+U  : Inverte a seleção de arquivos
+		SPACE   : Seleciona um arquivo
+	
+		Alt+E   : Menu de Compressão
+		Ctrl+L  : Alterna a língua (entre English e Korean)
+		Ctrl+W  : Alterna para dividir a tela (ou não)
+		TAB     : Próxima janela (quando a tela está dividida)
+		Ctrl+E  : Próxima janela (quando a tela está dividida)
+		Ctrl+N  : Novo arquivo
+	
+		Ctrl+C  : Copiar um arquivo.
+		Ctrl+V  : Recortar ou Mover um arquivo
+		Ctrl+X  : Colar o arquivo. Apenas para arquivos não compactados.  
+		          (Arquivos não são copiados ou movidos enquanto você não os cola)
+	
+		F1      : Ajuda
+		F2      : Renomear
+		F3      : Ver
+		F4      : Editor
+		F5      : Atualizar a tela
+		F6      : Mover
+		F7      : Mkdir (criar diretório)
+		F8      : Remover
+		F9      : Compressão
+		F10     : MCD
+		F11     : Quick Change Directory
+		F12     : Menu
+		
+		Ctrl+R  : sftp, ftp, samba remote server connect
+		Alt+R   : sftp, ftp, samba disconnect
+
+		Ctrl+G  : Listar periféricos montados
+		Ctrl+O  :  Subshell estilo MC.
+		
+		Ctrl+F  : Procurar arquivo.
+		Alt+I   : Diferença entre arquivos (diff)
+		
+		Ctrl+B  : configurar o gerenciador.
+	
+	MCD)
+		F1      : Ajuda
+		F2      : Renomear
+		F3      : Procurar na árvore de diretórios inteira. 
+		F4      : Procurar. Desce ao terceiro nível de subdiretórios.
+		F5      : Atualiza tela
+		F6      : Move
+		F7      : Cria diretório.
+		F8      : Remove  diretório.
+		F9      : Informação do diretório.
+		F10     : Lista de periféricos montados.
+		F12     : Menu
+		
+		Alt+X, Ctrl+Q 
+		ESC     : Sair do MCD
+	
+		Ctrl+P  : propriedades de conexão remota.
+		Ctrl+R  : conexão em servidores remotos de sftp, ftp, samba.
+		Alt+R   : desconexão de sftp, ftp samba.
+
+		Ctrl+C  : Copiar
+		Ctrl+V  : Colar
+		Ctrl+X  : Recorta (apenas para arquivos não compactados)
+		
+		Ctrl+W  : Divide a tela.
+		TAB     : Próxima janela (quando a tela está dividida)
+		Ctrl+E  : Próxima janela (quando a tela está dividida)
+	
+		Ctrl+O  : ConsoleMode (similar ao MC)	
+
+	Linm Editor)
+		F2      : Seleciona
+		F3      : Procura o próximo
+		F5      : Procurar
+		F5      : Atualizar
+		F6      : Número da linha
+		F8      : Editar com vim
+		F10,F12 : Menu
+				
+		Ctrl+N  : Novo documento
+		Ctrl+S  : Salvar documento
+		Ctrl+C  : Copiar
+		Ctrl+X  : Recortar
+		Ctrl+V  : Colar.
+		Ctrl+Z  : Desfazer
+		Ctrl+G  : Mover para a linha
+		Ctrl+F  : Procurar
+		
+		Alt+F   : Vai para a primeira linha
+		Alt+E   : Vai Para a linha final.
+		Alt+X,
+		Ctrl+Q  : Sai do Editor.
+		
+		Ctrl+W  : Divide a tela.
+		F9      : Próxima janela (quando a tela está dividida)
+		Ctrl+E  : Próxima janela (quando a tela está dividida)
+		
+		Shift+arrow key : Seleciona, apenas no Gnome console. 
+		                  Use F2 em outros terminais.
+
+* Formatos de Arquivos compactados suportados:
+  
+   tar, tar.gz, gz, bz2, tar.bz2, rpm, zip, deb, alz, jar, rar, iso
+
+* Sistemas testados:
+
+   - Redhat 9, Fedora 1~8
+   - Haansoft Linux 2006
+   - Ubuntu 7.10
+   - Gentoo 2006.02
+
+* Known Issues
+
+   - linm_aliase.sh
+
+     This shell program returns a shell prompt in the directory where Linm
+     was just ended. It should be found in /etc/profile.d by default. 
+     In case you don't end up in the directory where you ended Linm, or 
+     have a problem with running this script, add the below alias 
+     to your local .bashrc, or appropriate profiles (for Debian).
+   
+        alias linm='. linm.sh' 
+
+   - Authentification failure when sftping some servers (We are working on it.)
+
+* Homepage (wiki_ em koreano)
+ 
+   http://wiki.kldp.org/wiki.php/Mls
+   
+* Homepage atual do Projeto
+
+   https://github.com/roderico/linm
+   
+* Homepage anterior do Projeto
+
+   http://kldp.net/projects/mls
+   
+* Desenvolvedores originais
+
+   Byoungyoung, La     la9527@yahoo.co.kr        Project Manager   
+   Seungjoong Lee      leesjung@nownuri.net      Developer
+   Sangkoung, Bae      baesg@cntek.co.kr         Developer
+   Youngseop, Seo      seobi49@naver.com         Developer
+   Chaehoon, Yim       fehead@gmail.net          Tester
+   Eunseo, Choi        eunseo.choi@gmail.com     Translator
+   Kitea, Kim          bluetux@gmail.com         Designer 
+   
